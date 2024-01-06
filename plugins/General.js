@@ -108,7 +108,7 @@ Module_Exports({
     return b.reply("*_Give me Text To Get ChatGpt Response_*\n*_" + prefix + "gpt Who is King_*");
   }
   try {
-    const a = await fetch("https://aemt.me/bing?text=" + c);
+    const a = await fetch("https://aemt.me/download/bing?text=" + c);
     const d = await a.json();
     return b.reply(d.result, {
       quoted: b
