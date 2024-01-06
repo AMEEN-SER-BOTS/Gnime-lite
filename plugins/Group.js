@@ -562,7 +562,7 @@ Module_Exports({
 async(bot, person, text,{isCreator}) => {
     if (!isCreator) return person.reply(tlang().admin)
     if (!text) return person.reply(`*_Example : ${prefix}request hello dev please add a downloader feature_*`);
-    textt = `*sɪɢᴍᴀ ᴹᴰ* *_𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙲𝙴𝙽𝚃𝙴𝚁_*`;
+    textt = `*ɢɴɪᴍᴇ-ʟɪᴛᴇ* *_𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙲𝙴𝙽𝚃𝙴𝚁_*`;
     teks1 = `\n\n*_𝚄𝚂𝙴𝚁_* : @${
 person.sender.split("@")[0]
 }\n*_𝚁𝙴𝚀𝚄𝙴𝚂𝚃_* : ${text}`;

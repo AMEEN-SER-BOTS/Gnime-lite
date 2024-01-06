@@ -1,5 +1,3 @@
-
-
 const {TelegraPh , bgms  } = require('../lib/')
 
 const ffmpeg = require('fluent-ffmpeg');

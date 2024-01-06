@@ -1,5 +1,3 @@
-
-
 const axios = require('axios')
 const { sck1, tiny, fancytext,getBuffer, listall,Module_Exports , TelegraPh , name,prefix} = require('../lib')
 const fs = require('fs-extra');

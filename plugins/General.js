@@ -176,7 +176,7 @@ async(sigma, person) => {
 ││✵ *_sᴘᴇᴇᴅ_* ${latensie.toFixed(4)} ᴍs 
 ││✵ *_ᴘʟᴀᴛғᴏʀᴍ_* ᴍᴀᴄ-ᴏs
 ││✵ *_ᴠᴇʀsɪᴏɴ_* ${name.VERSION} 
-││✵ *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ_* *_sɪɢᴍᴀ ᴹᴰ_*
+││✵ *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ_* *_ɢɴɪᴍᴇ-ʟɪᴛᴇ_*
 ╰━────────────━┈⊷
 `;
   let buttonMessaged = {
@@ -274,7 +274,7 @@ Module_Exports({
 async(bot, man,write,{isCreator}) => {
 
 if(!isCreator) return man.reply(tlang().owner);
-let SIGMA_THEMES=`╭────〔 ${mztit} 〕━┈⊷ \n││✵ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ*\n││✵ *ᴛʜᴇᴍᴇs ɪɴ sɪɢᴍᴀ ᴹᴰ*\n`
+let SIGMA_THEMES=`╭────〔 ${mztit} 〕━┈⊷ \n││✵ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ*\n││✵ *ᴛʜᴇᴍᴇs ɪɴ ɢɴɪᴍᴇ-ʟɪᴛᴇ*\n`
 SIGMA_THEMES+=`││✵ SHELBY\n││✵ JOKER\n││✵ PATRICK\n││✵ GNIME\n││✵ AVENGERS\n││✵ BTS\n││✵ ANIME\n││✵ GOJO\n││✵ MOMOLAND\n││✵ ADAM\n││✵ AYANOKOJI\n││✵ EDITH\n││✵ FRIDAY\n││✵ GENOS\n││✵ GIDEON\n││✵ GOKU\n││✵ LUFFY\n││✵ NARUTO\n││✵ NEZUKO\n││✵ PARKER\n││✵ ${prefix}setvar THEME:BTS\n╰━────────────━┈⊷`
 return man.reply(SIGMA_THEMES)
   

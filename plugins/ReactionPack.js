@@ -3,7 +3,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "bite",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -26,7 +26,7 @@
             //---------------------------------------------------------------------------
             Module_Exports({
                 kingcmd: "poke",
-                kingclass: "reactions",
+                kingclass: "react cmd",
                 use: '<quote|reply|tag>',
             },
             async(Void, citel) => {
@@ -49,7 +49,7 @@
     //-----------------------------------------------------------------------
     Module_Exports({
                 kingcmd: "hug",
-                kingclass: "reactions",
+                kingclass: "react cmd",
                 use: '<quote|reply|tag>',
             },
             async(Void, citel) => {
@@ -72,7 +72,7 @@
     //-----------------------------------------------------------------------
     Module_Exports({
                 kingcmd: "hold",
-                kingclass: "reactions",
+                kingclass: "react cmd",
                 use: '<quote|reply|tag>',
             },
             async(Void, citel) => {
@@ -95,7 +95,7 @@
     //-----------------------------------------------------------------------
     Module_Exports({
                 kingcmd: "hifi",
-                kingclass: "reactions",
+                kingclass: "react cmd",
                 use: '<quote|reply|tag>',
             },
             async(Void, citel) => {
@@ -118,7 +118,7 @@
             //------------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "blush",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -142,7 +142,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "punch",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -166,7 +166,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "pat",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -190,7 +190,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "kiss",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -214,7 +214,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "kill",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -237,7 +237,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "happy",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -260,7 +260,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "dance",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -284,7 +284,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "yeet",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -308,7 +308,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "wink",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -332,7 +332,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "slap",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -356,7 +356,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "bonk",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -379,7 +379,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "bully",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -403,7 +403,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                     kingcmd: "cringe",
-                    kingclass: "reactions",
+                    kingclass: "react cmd",
                     use: '<quote|reply|tag>',
                 },
                 async(Void, citel) => {
@@ -427,7 +427,7 @@
             //---------------------------------------------------------------------------
         Module_Exports({
                 kingcmd: "cuddle",
-                kingclass: "reactions",
+                kingclass: "react cmd",
                 use: '<quote|reply|tag>',
             },
             async(Void, citel) => {

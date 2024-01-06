@@ -94,7 +94,7 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-     "value": "sɪɢᴍᴀ ᴹᴰ",
+     "value": "ɢɴɪᴍᴇ-ʟɪᴛᴇ",
      "required": false 
   },
 "PACK_AUTHER": {
@@ -114,7 +114,7 @@
 },
 "GNAME": {
   "description": "Add Your Group Name Here.You Can See in Most Commands",
-   "value": "sɪɢᴍᴀ ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
+   "value": "ɢɴɪᴍᴇ-ʟɪᴛᴇ-sᴜᴘᴘᴏʀᴛ",
     "required": false
 },
 "WAURL": {
@@ -124,7 +124,7 @@
 },
 "BOT_NAME": {
   "description": "Add Your Own Bot Name",
-   "value": "sɪɢᴍᴀ ᴹᴰ"
+   "value": "ɢɴɪᴍᴇ-ʟɪᴛᴇ"
     
 },
 "REMOVE_BG_KEY": {

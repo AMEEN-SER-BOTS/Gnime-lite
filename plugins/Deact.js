@@ -1,5 +1,3 @@
-
-
  const { sck,sck1,Module_Exports, getAdmin, tlang,prefix ,name} = require('../lib')
 
   
