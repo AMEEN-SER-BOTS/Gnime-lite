@@ -99,8 +99,8 @@ Module_Exports({
 });
 //----------------------
 Module_Exports({
-  kingcmd: "bing",
-  shortcut: ["bingai", "msbing"],
+  kingcmd: "blackbox",
+  shortcut: ["bb", "bbai"],
   kingclass: "AI cmd",
   infocmd: "To get open ai response"
 }, async (a, b, c) => {
@@ -108,7 +108,7 @@ Module_Exports({
     return b.reply("*_Give me Text To Get ChatGpt Response_*\n*_" + prefix + "gpt Who is King_*");
   }
   try {
-    const a = await fetch("https://aemt.me/download/bing?text=" + c);
+    const a = await fetch("https://api-smd.vercel.app/api/api/blackbox?query=" + c);
     const d = await a.json();
     return b.reply(d.result, {
       quoted: b
