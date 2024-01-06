@@ -15,7 +15,7 @@ global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
 global.gurl = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
 global.sudo =  process.env.SUDO || "2348039607375" ;
 global.devs = "2348039607375";
-global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",
+global.mztit = process.env.MZTIT ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ",
 global.Gname = process.env.GNAME ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ-sᴜᴘᴘᴏʀᴛ",
 global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
 global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
