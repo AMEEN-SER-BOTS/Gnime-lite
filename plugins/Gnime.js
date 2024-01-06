@@ -63,7 +63,7 @@
 
   sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
     kingcmd: "menu",
-    shortcut: ["help", "list"],
+    shortcut: ["list"],
     infocmd: "All Commands lists",
     kingclass: "user cmd"
   }, async (a, b, c) => {
