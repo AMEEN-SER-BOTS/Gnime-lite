@@ -10,7 +10,7 @@ var dlsize = 250 // 250mb
 Module_Exports({
             kingcmd: "playlist",
             infocmd: "Downloads video from playlist.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: '<yt playlist url>',
         },

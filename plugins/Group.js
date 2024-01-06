@@ -34,7 +34,7 @@ Module_Exports({
         kingcmd: "support",
         shortcut: ["sgc"],
         infocmd: "Sends official support group link.",
-        kingclass: "developer",
+        kingclass: "creator",
         use: ""
 
     },
@@ -48,7 +48,7 @@ Module_Exports({
     kingcmd: "gdesc",
     shortcut : ['setgdesc','setdesc'],
     infocmd: "Set Description of Group",
-    kingclass: "group",
+    kingclass: "group cmd",
     kingpath: __filename,
     use: 'enter Description Text',
 },
@@ -74,7 +74,7 @@ Module_Exports({
     kingcmd: "gname",
     shortcut : ['setgname','setname'],
     infocmd: "Set name of Group",
-    kingclass: "group",
+    kingclass: "group cmd",
     kingpath: __filename,
     use: 'enter Description Text',
 },
@@ -100,7 +100,7 @@ Module_Exports({
         kingcmd: "antifake",
 	shortcut: ["afake"],
         infocmd: "Allow  to Join Group For Specific Country Code",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -112,7 +112,7 @@ Module_Exports({
         kingcmd: "antidemote",
         shortcut: ["antidm"],
         infocmd: "Detects Promote and Automaticaly demote promoted person.", 
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -140,7 +140,7 @@ Module_Exports({
         kingcmd: "antipromote",
         shortcut: ["antipm"],
         infocmd: "Detects Promote and Automaticaly demote promoted person.", 
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -167,7 +167,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "pdm",
         infocmd: "Detect Promote/Demote Users And Send Alerts in Chat ",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => {
@@ -194,7 +194,7 @@ Module_Exports({
  Module_Exports({
     kingcmd: "warn",
     infocmd: "Warns user in Group.",
-    kingclass: "group",
+    kingclass: "group cmd",
     kingpath: __filename,
     use: 'quote|reply|number',
 },
@@ -272,7 +272,7 @@ Module_Exports({
         kingcmd: "invite",
         shortcut:["glink"],
         infocmd: "get group link.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
 	 async(Void, citel, text,{ isCreator }) => {
@@ -295,7 +295,7 @@ return citel.reply("*_Group Invite Link Is Here_* \n*_"+mergedString+"_*");
     Module_Exports({
         kingcmd: "revoke",
         infocmd: "reset group link.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
 	 async(Void, citel, text,{ isCreator }) => {
@@ -317,7 +317,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
             kingcmd: "onlyadmin",
             shortcut:["antimessge","oadmin"],
             infocmd: "Only Admins Allow to Send Message, Others kick.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename
         },
         async(Void, citel, text , { cmdName ,isCreator}) => {
@@ -330,7 +330,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
         kingcmd: "devwarn",
         shortcut: ['dwarn'],
         infocmd: "sends warning from developer",
-        kingclass: "developer",
+        kingclass: "creator",
         use: 'reply to any person',
     },
     async(sigma, person, memo,{isCreator}) => {
@@ -392,7 +392,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "antibot",
         infocmd: "kick Bot Users from Group!",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename
     },
     async(Void, citel, text , { cmdName ,isCreator}) => {
@@ -403,7 +403,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "disable",
         infocmd: "disable cmds in Group.!",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {
@@ -414,7 +414,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "enable",
         infocmd: "enable a Command in Group.!",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {
@@ -449,7 +449,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     Module_Exports({
         kingcmd: "tagall",
         infocmd: "Tags all user in group.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(bot, man, text,{ isCreator }) => {
@@ -491,7 +491,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 Module_Exports({
         kingcmd: "kik",
         infocmd: "Kick all numbers from a certain country",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => 
@@ -532,7 +532,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "num",
         infocmd: "get all numbers from a certain country",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
     },
     async(Void, citel, text,{ isCreator }) => 
@@ -556,7 +556,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "request",
     infocmd: "Sends requst to main Bot developer.",
-    kingclass: "developer",
+    kingclass: "creator",
     use: 'add new feature',
 },
 async(bot, person, text,{isCreator}) => {
@@ -590,7 +590,7 @@ person.sender.split("@")[0]
     Module_Exports({
         kingcmd: "rwarn",
         infocmd: "Deletes 1 previously given warns of quoted user.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
         use: '',
     },
@@ -605,7 +605,7 @@ person.sender.split("@")[0]
 Module_Exports({
             kingcmd: "poll",
             infocmd: "Makes poll in group.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: `question;option1,option2,option3.....`,
         },
@@ -622,7 +622,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "profile",
             infocmd: "Shows profile of user.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -694,7 +694,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "rank",
             infocmd: "Sends rank card of user.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -850,7 +850,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "promote",
             infocmd: "Provides admin role to replied/quoted user",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: 'quote|reply|number',
         },
@@ -880,7 +880,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "demote",
     infocmd: "Demotes replied/quoted user from group",
-    kingclass: "group",
+    kingclass: "group cmd",
     kingpath: __filename,
     use: '<quote|reply|number>',
 },
@@ -913,7 +913,7 @@ async(Void, citel, text,{ isCreator }) => {
 Module_Exports({
             kingcmd: "kick",
             infocmd: "Kicks replied/quoted user from group.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: '<quote|reply|number>',
         },
@@ -946,7 +946,7 @@ Module_Exports({
              kingcmd: "groupmode",
              shortcut: ["gmode"],
              infocmd: "mute and unmute group.",
-             kingclass: "group",
+             kingclass: "group cmd",
              kingpath: __filename,
          },
          async(bot, man, text) => {
@@ -1021,7 +1021,7 @@ Module_Exports({
         kingcmd: "fullgpp",
         shortcut:['fgp'],
         infocmd: "Sets full  pic in Group..",
-        kingclass: "group",
+        kingclass: "group cmd",
     
     },
     async(bot, man, memo) => {
@@ -1036,7 +1036,7 @@ Module_Exports({
             kingcmd: "grouppic",
             shortcut:["gpp"],
             infocmd: "Sets a profile pic in Group..",
-            kingclass: "group",
+            kingclass: "group cmd",
     
         },
         async(bot, man, write) => {
@@ -1068,7 +1068,7 @@ Module_Exports({
             kingcmd: "tag",
             shortcut:["hidetag","htag"],
             infocmd: "Tags everyperson of group without mentioning their numbers",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: '<text>',
         },
@@ -1089,7 +1089,7 @@ Module_Exports({
      Module_Exports({
         kingcmd: "tagadmin",
         infocmd: "Tags only Admin numbers",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
         use: '',
     },
@@ -1120,7 +1120,7 @@ ${listAdmin}
 Module_Exports({
             kingcmd: "add",
             infocmd: "Add that person in group",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: 'number',
         },
@@ -1154,7 +1154,7 @@ Module_Exports({
             kingcmd: "getjids",
             shortcut:['gjid','gjids'],
             infocmd: "Sends chat id of every groups.",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -1223,7 +1223,7 @@ Module_Exports({
             kingcmd: "del",
             shortcut: ["delete" , "dlt"],
             infocmd: "Deletes message of any user",
-            kingclass: "group",
+            kingclass: "group cmd",
             kingpath: __filename,
             use: '<quote/reply message.>',
         },
@@ -1263,7 +1263,7 @@ Module_Exports({
         kingcmd: "checkwarn",
         infocmd: "Check warns",
         shortcut: ["cwarn"],
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
         use: '<quoted/reply user.>',
     },
@@ -1289,7 +1289,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "broadcast",
         infocmd: "Bot makes a broadcast in all groups",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename,
         use: '<text for broadcast.>',
     },

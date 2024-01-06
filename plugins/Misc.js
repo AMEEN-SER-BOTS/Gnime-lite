@@ -12,7 +12,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
     kingcmd: "welcome",
     shortcut:["setwelcome","swel"],
     infocmd: "sets welcome message in specific group.",
-    kingclass: "group",
+    kingclass: "group cmd",
  kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {
@@ -51,7 +51,7 @@ Module_Exports({
     kingcmd: "goodbye",
     shortcut: ["setgoodbye","setbye"],
     infocmd: "sets goodbye message in specific group.",
-    kingclass: "group",
+    kingclass: "group cmd",
  kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {
@@ -198,7 +198,7 @@ if (!citel.quoted) return citel.reply (`*_Please Reply To A User To Get Profile 
              kingcmd: "readmore",
              shortcut:["rmore",'readmor'],
              infocmd: "Adds *readmore* in given text.",
-             kingclass: "misc cmd",
+             kingclass: "misc",
              kingpath: __filename
          },
          async(Void, citel, text) => {
@@ -366,7 +366,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "pick",
              infocmd: "Pick random user from Group",
-             kingclass: "group",
+             kingclass: "group cmd",
              kingpath: __filename
          },
          async(Void, citel, match) => {
@@ -389,7 +389,7 @@ const vcard = 'BEGIN:VCARD\n' +
  Module_Exports({
              kingcmd: "cnsfw",
              infocmd: "activates and deactivates nsfw.\nuse buttons to toggle.",
-             kingclass: "misc cmd",
+             kingclass: "misc",
              kingpath: __filename
          },
          async(Void, citel, text,{isCreator}) => {
@@ -430,7 +430,7 @@ const vcard = 'BEGIN:VCARD\n' +
         kingcmd: "fliptext",
         shortcut: ["ftext"],
         infocmd: "Flips given text.",
-        kingclass: "misc cmd",
+        kingclass: "misc",
         use: 'Maher Zubair',
         kingpath: __filename,
     },
@@ -447,7 +447,7 @@ const vcard = 'BEGIN:VCARD\n' +
   
              shortcut:['mp4down','mp4fromurl'],
              infocmd: "download mp4 from url.",
-             kingclass: "downloader",
+             kingclass: "downloaders cmd",
              use: 'url',
              kingpath: __filename
          },
@@ -477,7 +477,7 @@ const vcard = 'BEGIN:VCARD\n' +
      Module_Exports({
         kingcmd: "events",
         infocmd: "activates and deactivates events.\nuse buttons to toggle.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename
     },
     async(bot, person, write,{isCreator}) => {
@@ -540,7 +540,7 @@ const buffer = await sticker.toBuffer();
              kingcmd: "sigmabot",
              shortcut : ["chatbot","sbot","sigmachatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
-             kingclass: "misc cmd",
+             kingclass: "misc",
              kingpath: __filename
          },
          async(Void, citel, text,{ isCreator }) => {
@@ -577,7 +577,7 @@ const buffer = await sticker.toBuffer();
  Module_Exports({
              kingcmd: "ebinary",
              infocmd: "encode binary",
-             kingclass: "misc cmd",
+             kingclass: "misc",
              use: 'hi',
              kingpath: __filename
          },
@@ -597,7 +597,7 @@ const buffer = await sticker.toBuffer();
  Module_Exports({
              kingcmd: "dbinary",
              infocmd: "decode binary",
-             kingclass: "misc cmd",
+             kingclass: "misc",
              use: 'hi',
              kingpath: __filename
          },
@@ -620,7 +620,7 @@ if(name.WORKTYPE != 'private')
 Module_Exports({
   kingcmd: "bot",
   infocmd: "activates and deactivates bot.\nuse buttons to toggle.",
-  kingclass: "misc cmd",
+  kingclass: "misc",
   kingpath: __filename
 },
 async(Void, citel, text,{isCreator}) => {
@@ -683,7 +683,7 @@ async(Void, citel, text,{isCreator}) => {
  Module_Exports({
              kingcmd: "antispam",
              infocmd: "Kick Spamers From Group.\nuse buttons to toggle.",
-             kingclass: "group",
+             kingclass: "group cmd",
              kingpath: __filename
          },
          async(Void, citel, text , {isCreator}) => {
@@ -718,7 +718,7 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
      Module_Exports({
         kingcmd: "antilink",
         infocmd: "activates and deactivates antilink.\nuse buttons to toggle.",
-        kingclass: "group",
+        kingclass: "group cmd",
         kingpath: __filename
     },
     async(Void, citel, text , {isCreator}) => {

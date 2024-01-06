@@ -65,7 +65,7 @@
     kingcmd: "menu",
     shortcut: ["help", "list"],
     infocmd: "All Commands lists",
-    kingclass: "general"
+    kingclass: "user cmd"
   }, async (a, b, c) => {
     const {
       commands: d

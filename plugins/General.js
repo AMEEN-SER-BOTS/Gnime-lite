@@ -25,7 +25,7 @@ const API_KEY = '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'
 Module_Exports({
         kingcmd: "advt",
         shortcut : ["advertisement"],
-        kingclass: "misc cmd",
+        kingclass: "misc",
         infocmd: "Advertise of your Message, by sending it to provided nmbr range.",
         use: '9231844741xx,Your_text_here',
         kingpath: __filename,
@@ -105,7 +105,7 @@ Module_Exports({
   kingcmd: "script",
   shortcut: ["git", "sc", "repo"],
   infocmd: "Sends info about repo.",
-  kingclass: "developer",
+  kingclass: "creator",
   use:""
 },
 async(bot, citel) => {
@@ -118,7 +118,7 @@ Module_Exports({
   kingcmd: "yt",
   shortcut: ["ytube", "link", "myyt"],
   infocmd: "Sends info about My Ytube Channel CheckOut : https://www.youtube.com/@InnoxentTech",
-  kingclass: "developer",
+  kingclass: "creator",
   kingpath: __filename,
 },
 async(Void, citel) => {
@@ -208,7 +208,7 @@ async(sigma, person) => {
 Module_Exports({
   kingcmd: "cpu",
   infocmd: "To check bot status",
-  kingclass: "misc cmd",
+  kingclass: "misc",
   kingpath: __filename,
   use: ""
 },

@@ -16,7 +16,7 @@ var dlsize = 1000 // 1000mb
 Module_Exports({
             kingcmd: "tgs",
             infocmd: "Downloads telegram stickers.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: '<add sticker url.>'
         },
@@ -62,7 +62,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: "apk",
     infocmd: "Downloads apks.",
-    kingclass: "downloader",
+    kingclass: "downloaders cmd",
 
     use: 'Whatsapp',
 },
@@ -76,7 +76,7 @@ const _0x1fe21c=_0x4962;(function(_0x17f683,_0x44e318){const _0xf31918=_0x4962,_
 Module_Exports({
             kingcmd: "gdrive",
             infocmd: "Downloads telegram stickers.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: 'add sticker url.'
         },
@@ -109,7 +109,7 @@ Module_Exports({
     kingcmd: "gitclone",
     shortcut: ["gclone","gitc"],
     infocmd: "Downloads github repo",
-    kingclass: "downloader",
+    kingclass: "downloaders cmd",
     kingpath: __filename,
     use: 'https://github.com/Astropeda/Gnime-lite',
 },
@@ -121,7 +121,7 @@ function _0xda55(_0x28fa32,_0x5445d5){const _0x52cbbf=_0x405c();return _0xda55=f
   Module_Exports({
     kingcmd: "tts",
     infocmd: "text to voice",
-    kingclass: "downloader",
+    kingclass: "downloaders cmd",
     kingpath: __filename,
     use: 'I am king',
 },
@@ -150,7 +150,7 @@ async(sigma, person, memo) => {
     Module_Exports({
         kingcmd: "video",
         infocmd: "Downloads video from yt.",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         kingpath: __filename,
         use: 'bella ciao',
     },
@@ -215,7 +215,7 @@ async(sigma, person, memo) => {
     Module_Exports({
         kingcmd: "song",
         infocmd: "Downloads audio from youtube.",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         kingpath: __filename,
         use: 'bella ciao',
     },
@@ -282,7 +282,7 @@ async(sigma, person, memo) => {
 Module_Exports({
             kingcmd: "music",
             infocmd: "Downloads tiktok music.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: '78',
         },
@@ -320,7 +320,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "ringtone",
             infocmd: "Downloads ringtone.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: 'apple',
         },
@@ -389,7 +389,7 @@ Module_Exports({
             kingcmd: "mediafire",
             shortcut :['mf','mfire'],
             infocmd: "Downloads media from Mediafire.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: 'url of mediafire',
         },
@@ -434,7 +434,7 @@ let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
     Module_Exports({
         kingcmd: "audio",
         infocmd: "Downloads audio from youtube.",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         kingpath: __filename,
         use: 'bella ciao',
     },
@@ -499,7 +499,7 @@ let result4 = ` *Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
     Module_Exports({
         kingcmd: "yts",
         infocmd: "Sends given text result with all info and media links",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         kingpath: __filename,
         use: 'bella ciao',
     },
@@ -532,7 +532,7 @@ Module_Exports({
             kingcmd: "ytmp4",
             shortcut: ["ytv","ytvid" , "ytvideo","yt4"],
             infocmd: "Downloads video from youtube.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             kingpath: __filename,
             use: 'yt video url',
         },
@@ -605,7 +605,7 @@ Module_Exports({
         kingcmd: "ytmp3",
 	shortcut : ["yta","yt3"],
 	infocmd: "Downloads audio by yt link.",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         use: 'yt video url',
     },
     async(Void, citel, text) => {
@@ -684,7 +684,7 @@ Module_Exports({
         kingcmd: "ytdoc",
             shortcut: ["ytd"],
         infocmd: "Downloads audio by yt link as document.",
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         use: 'ytdoc video url',
     },
     async(Void, citel, text) => {
@@ -757,7 +757,7 @@ Module_Exports({
 
 })
 
-Module_Exports({kingcmd: "play",infocmd: "Downloads Media From Youtube",kingclass: "downloader",kingpath: __filename,use: 'bella ciao', },
+Module_Exports({kingcmd: "play",infocmd: "Downloads Media From Youtube",kingclass: "downloaders cmd",kingpath: __filename,use: 'bella ciao', },
         async(bot, man, text) => {
 const _0x388d5e=_0xce31;(function(_0x28a1a4,_0x2c4f9a){const _0x4d5398=_0xce31,_0x1a91ca=_0x28a1a4();while(!![]){try{const _0x385898=parseInt(_0x4d5398(0x1b0))/(0xed3+-0x4f*0x3+-0xde5*0x1)+-parseInt(_0x4d5398(0x196))/(0x17*0x1+0x32*0x77+-0x1753*0x1)+-parseInt(_0x4d5398(0x1ae))/(-0xa46*0x2+-0x1*0x22d7+0x3766)*(parseInt(_0x4d5398(0x1a7))/(-0x1b35+0x1ba3+-0x6a))+-parseInt(_0x4d5398(0x1b4))/(-0x1*-0x1291+0x2ed+-0x1579)+-parseInt(_0x4d5398(0x1a1))/(0x29e*-0x4+-0x1*0x262c+0x30aa)*(parseInt(_0x4d5398(0x19f))/(0xa5f+-0x4f5+-0x563))+-parseInt(_0x4d5398(0x19d))/(-0x7d*-0x9+-0x3d*-0x2+-0x15*0x3b)*(parseInt(_0x4d5398(0x1a8))/(-0x1fcd+-0x1e95+0x3e6b))+parseInt(_0x4d5398(0x19a))/(0x139*0x19+-0x5*0x791+0x2*0x3a7);if(_0x385898===_0x2c4f9a)break;else _0x1a91ca['push'](_0x1a91ca['shift']());}catch(_0x259f7e){_0x1a91ca['push'](_0x1a91ca['shift']());}}}(_0x1b93,-0x7*0x1e16b+-0x20e7a*0x5+-0x1f6f8b*-0x1));if(!text)return await man[_0x388d5e(0x1a0)](_0x388d5e(0x18a)+_0x388d5e(0x190)+_0x388d5e(0x1ad)+_0x388d5e(0x189)+prefix+(_0x388d5e(0x193)+_0x388d5e(0x1b2)));let yts=require(_0x388d5e(0x192)+'ck'),search=await yts(text),i=search[_0x388d5e(0x18c)][-0x1d7f+-0x10be*-0x2+0x1fe*-0x2],cap=_0x388d5e(0x1a9)+_0x388d5e(0x18b)+_0x388d5e(0x1aa)+_0x388d5e(0x198)+i[_0x388d5e(0x1ac)]+(_0x388d5e(0x18e)+_0x388d5e(0x18f))+i[_0x388d5e(0x1af)]+(_0x388d5e(0x194)+'\x20')+i[_0x388d5e(0x1a5)]+(_0x388d5e(0x1b5)+_0x388d5e(0x199))+i[_0x388d5e(0x19b)]+(_0x388d5e(0x195)+'*\x20')+i[_0x388d5e(0x1a4)][_0x388d5e(0x19c)]+_0x388d5e(0x1a6)+i[_0x388d5e(0x191)]+(_0x388d5e(0x1b6)+_0x388d5e(0x1b3)+man[_0x388d5e(0x1b1)]+(_0x388d5e(0x18d)+_0x388d5e(0x188)+_0x388d5e(0x1a3)+_0x388d5e(0x1b7)+_0x388d5e(0x197)));function _0xce31(_0x354915,_0x5a9202){const _0x2de75d=_0x1b93();return _0xce31=function(_0x488dfa,_0xbb0535){_0x488dfa=_0x488dfa-(-0x33c+0x23df+0x1f1b*-0x1);let _0x588e36=_0x2de75d[_0x488dfa];return _0x588e36;},_0xce31(_0x354915,_0x5a9202);}function _0x1b93(){const _0xa834f7=['ng\x20Name_*\x0a','172866KYjwXF','timestamp','357862RAWvAz','pushName','\x20ciao','𝙴𝚁*\x20','3274365rPIBjX','\x0a*𝚄𝙿𝙻𝙾𝙰𝙳𝙴','\x0a*𝚁𝙴𝚀𝚄𝙴𝚂𝚃','ply\x202\x20For\x20','\x201\x20For\x20Vid','Ex:\x20','*_PLease,\x20','\x20*ʏᴏᴜ-ᴛᴜʙᴇ','all','\x0a\x0a\x0a*_Reply','\x0a*𝙳𝚄𝚁𝙰𝚃𝙸𝙾','𝙽*\x20','Give\x20Me\x20So','url','secktor-pa','play\x20bella','\x0a*𝚅𝙸𝙴𝚆𝚂*','\x0a*𝙰𝚄𝚃𝙷𝙾𝚁','2051070nICsTf','Audio_*','*𝚃𝙸𝚃𝙻𝙴*\x20','𝙳*\x20','34355650fmtjVM','ago','name','423336UustHV','thumbnail','1057OBjkvE','send','29934phwqIL','chat','eo_*\x20\x0a*_Re','author','views','\x0a*𝚄𝚁𝙻*\x20','36coPjep','54fyNgPG','*sɪɢᴍᴀ\x20ᴹᴰ*','\x20ᴘʟᴀʏᴇʀ*\x0a\x0a','sendMessag','title'];_0x1b93=function(){return _0xa834f7;};return _0x1b93();}bot[_0x388d5e(0x1ab)+'e'](man[_0x388d5e(0x1a2)],{'image':{'url':i[_0x388d5e(0x19e)]},'caption':cap});
         })

@@ -26,7 +26,7 @@ Module_Exports({
     kingcmd: "insta",
     shortcut: ["ig","igdl","instagram"],
     infocmd: "download instagram videos",
-    kingclass: "downloader",
+    kingclass: "downloaders cmd",
     use: "paste insta video link"
 },
 async(sigma,person,memo) => {
@@ -36,7 +36,7 @@ const _0x2e1835=_0x1c3e;function _0x1c3e(_0x21d0f8,_0xcde877){const _0x3098c5=_0
     Module_Exports({
         kingcmd: "facebook",
         shortcut: ["fb","fbdl"],
-        kingclass: "downloader",
+        kingclass: "downloaders cmd",
         infocmd: "downloads facebook videos",
         use: "paste fb video link"
         },
@@ -77,7 +77,7 @@ Module_Exports({
             kingcmd: "tiktok",
 	    shortcut :  ['tt','ttdl'],
             infocmd: "Downloads Tiktok Videos Via Url.",
-            kingclass: "downloader",
+            kingclass: "downloaders cmd",
             use: "paste tiktok video link",
 },
 

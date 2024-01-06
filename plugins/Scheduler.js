@@ -4,7 +4,7 @@
  Module_Exports({
      kingcmd: "amute",
      infocmd: "sets auto mute time in group.",
-     kingclass: "group",
+     kingclass: "group cmd",
  },
  async(Void, citel, text,{ isCreator }) => {
      if (!isCreator) return citel.reply(tlang().owner)
@@ -27,7 +27,7 @@
  Module_Exports({
     kingcmd: "aunmute",
     infocmd: "sets unmute time in group.",
-    kingclass: "group",
+    kingclass: "group cmd",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -50,7 +50,7 @@ async(Void, citel, text,{ isCreator }) => {
  Module_Exports({
     kingcmd: "dunmute",
     infocmd: "Delete unmute from group.",
-    kingclass: "group",
+    kingclass: "group cmd",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -69,7 +69,7 @@ async(Void, citel, text,{ isCreator }) => {
  Module_Exports({
     kingcmd: "dmute",
     infocmd: "Delete mute from group.",
-    kingclass: "group",
+    kingclass: "group cmd",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)

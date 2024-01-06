@@ -8,7 +8,7 @@
          kingcmd: "deact",
   shortcut : ['deactive','deactivate'],
          infocmd: "Switches for varios works.",
-         kingclass: "group",
+         kingclass: "group cmd",
          kingpath: __filename
      },
      async(Void, citel, text,{ isCreator }) => {
