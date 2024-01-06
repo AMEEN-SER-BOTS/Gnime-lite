@@ -104,7 +104,7 @@
         timeZone: global.timezone
       }).split(",");
       let h = await sck1.countDocuments();
-      let i = "╭────〔 " + mztit + " 〕━━┈⊷      \n││✵ *ᴡᴇʟᴄᴏᴍᴇ* " + b.pushName + "\n││✵ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n││✵ *ᴏᴡɴᴇʀ* " + name.ownername + "\n││✵ *ᴘʀᴇғɪx* ❑ *" + prefix + "* ❑\n││✵ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n││✵ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n││✵ *ᴛɪᴍᴇ* " + f + "\n││✵ *ᴅᴀᴛᴇ* " + e + "\n││✵ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n││✵ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n││✵ *ᴘʟᴜɢɪɴs* " + d.length + "\n││✵ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n││✵ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n││✵ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n││✵ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴍ ᴢᴜʙᴀɪʀ*\n╰━━────────────┈⊷       \n\n" + sɪɢᴍᴀ_readmore + "\n";
+      let i = "╭────〔 " + mztit + " 〕━━┈⊷      \n││✵ *ᴡᴇʟᴄᴏᴍᴇ* " + b.pushName + "\n││✵ *ᴏᴡɴᴇʀ* " + name.ownername + "\n││✵ *ᴘʀᴇғɪx* ❑ *" + prefix + "* ❑\n││✵ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n││✵ *ᴛɪᴍᴇ* " + f + "\n││✵ *ᴅᴀᴛᴇ* " + e + "\n││✵ *ʀᴀᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n││✵ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n││✵ *ᴘʟᴜɢɪɴs* " + d.length + "\n││✵ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n││✵ *ᴘʟᴀᴛꜰᴏʀᴍ* ʟɪɴᴜx\n││✵ *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀsᴛʀᴏ*\n╰━━────────────┈⊷       \n\n" + sɪɢᴍᴀ_readmore + "\n";
       let j = false;
       for (const a in g) {
         i += "╭────❑ " + tiny(a) + " ❑\n";
@@ -122,7 +122,7 @@
           i += "╰━─────────────◦➛\n";
         }
       }
-      i += "ʟᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ 06/01/2023";
+      i += " *ʟᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ 06/01/2023* ";
       return await a.sendMessage(b.chat, {
         image: {
           url: await botpic()
