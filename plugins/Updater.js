@@ -30,7 +30,7 @@ Module_Exports({
             kingcmd: "update",
             shortcut: ["ud"],
             infocmd: "Shows repo\'s refreshed commits.",
-            kingclass: "tools",
+            kingclass: "tools heroku & Koyeb",
             kingpath: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -66,7 +66,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
                  kingcmd: "updatebot",
                  shortcut: ["ubot"],
                  infocmd: "Shows repo\'s refreshed commits.",
-                 kingclass: "tools",
+                 kingclass: "tools heroku & Koyeb",
                  kingpath: __filename
              },
         async(Void, citel, text,{ isCreator }) => {
@@ -91,7 +91,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
 Module_Exports({
     kingcmd: "update all",
     infocmd: "Shows repo's refreshed commits.",
-    kingclass: "tools",
+    kingclass: "tools heroku & Koyeb",
     kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {

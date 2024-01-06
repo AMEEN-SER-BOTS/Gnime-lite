@@ -462,7 +462,7 @@ async(sigma, citel, text) => {
     let media = await sigma.downloadAndSaveMediaMessage(citel.quoted)
     try {
         if (/webp/.test(mimetype)) {  let webpToMp4 = await webp2mp4File(media);  media =  webpToMp4.result; }
-        await sigma.sendMessage(citel.chat, { video: { url: media ,}, caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`  },)
+        await sigma.sendMessage(citel.chat, { video: { url: media ,}, caption: `*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ${name.botname}*`  },)
         try{ return await fs.unlink(media);}catch(e){ return console.log("Error While Deleting Tomp4 File :  ", e)}
     }catch(e){ return console.log("*Your Request Not Be Proceed due to Error.*  \n*_Error :_* ", e)}
 }

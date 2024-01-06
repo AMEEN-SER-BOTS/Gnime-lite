@@ -163,7 +163,7 @@ Module_Exports({
   kingcmd: "status",
   shortcut: ["about","sts"],
   infocmd: "To check bot status",
-  kingclass: "tools",
+  kingclass: "tools heroku & Koyeb",
   use: ""
 },
 async(sigma, person) => {
@@ -285,7 +285,7 @@ return man.reply(SIGMA_THEMES)
 Module_Exports({
   kingcmd: "speed",
   infocmd: "TO check bot responding speed",
-  kingclass: "tools",
+  kingclass: "tools heroku & Koyeb",
   use: "",
 },
 async(sigma, person) => {
