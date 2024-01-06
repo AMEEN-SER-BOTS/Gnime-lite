@@ -91,7 +91,7 @@ Module_Exports({
     m += "\n││✵ *𝙰𝙿𝙿 𝚂𝙸𝚉𝙴* " + j.size;
     m += "\n││✵ *𝚅𝙴𝚁𝚂𝙸𝙾𝙽* Latest";
     m += "\n││✵ *𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝚁*  " + b.pushName;
-    m += "\n╰━────────━━━━┈⊷\n* ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ " + name.botname + "*";
+    m += "\n╰━────────━━━━┈⊷\n*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ " + name.botname + "*";
     axios.get(l, {
       responseType: "stream"
     }).then(a => {
@@ -186,7 +186,7 @@ Module_Exports({
         document: {
           url: h
         },
-        caption: "╭────〔 " + mztit + " 〕━┈⊷\n││┏➛ *ɢɴɪᴍᴇ-ʟɪᴛᴇ*\n││╰━➛ *ʀᴇᴘᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n││✵ *ᴀᴜᴛʜᴏʀ* " + f + "\n││✵ *ʀᴇᴘᴏ* " + g + "\n││✵ *ꜰɪʟᴇ-ᴛʏᴘᴇ* zip\n││✵ *ʀᴇᴘᴏ-ʟɪɴᴋ* https://github.com/" + f + "/" + g + "\n││✵ *ʀᴇǫᴜᴇsᴛᴇʀ*  " + b.pushName + "\n╰━────────━━━━┈⊷\n* ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ " + name.botname + "*",
+        caption: "╭────〔 " + mztit + " 〕━┈⊷\n││┏➛ *ɢɴɪᴍᴇ-ʟɪᴛᴇ*\n││╰━➛ *ʀᴇᴘᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*\n││✵ *ᴀᴜᴛʜᴏʀ* " + f + "\n││✵ *ʀᴇᴘᴏ* " + g + "\n││✵ *ꜰɪʟᴇ-ᴛʏᴘᴇ* zip\n││✵ *ʀᴇᴘᴏ-ʟɪɴᴋ* https://github.com/" + f + "/" + g + "\n││✵ *ʀᴇǫᴜᴇsᴛᴇʀ*  " + b.pushName + "\n╰━────────━━━━┈⊷\n*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ " + name.botname + "*",
         fileName: i,
         mimetype: "application/zip"
       });
