@@ -7,7 +7,7 @@ cmd(
   {
     kingcmd: "kupdatenow",
     infocmd: "To update koyeb",
-    kingclass: "misc",
+    kingclass: "misc cmd",
     kingpath: __filename,
   },
   async (Void,citel,text,{isCreator}) => {
