@@ -1,7 +1,6 @@
 const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
-//═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://danielpeter:beka10beka10@cluster0.ef032ix.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=8000  ;
@@ -13,24 +12,22 @@ global.email = 'astromedia0010@outlook.com' ;
 global.github = 'https://github.com/Astropeda/Gnime-lite' ;
 global.location = 'Lagos Nigeria' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
-global.gurl = 'https://github.com/Astropeda' ; 
-global.sudo =  process.env.SUDO || "2348039607375";
-global.devs = "2348039607375";
-global.mztit = process.env.MZTIT ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ",
-global.Gname = process.env.GNAME ||"ɢɴɪᴍᴇ ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
-global.zyt = process.env.ZYT || 'https://github.com/Astropeda',
-global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/KFe2GEMBZ9eI1bpNVotZOW",
-global.website = 'https://github.com/Astropeda' ; 
+global.gurl = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
+global.sudo =  process.env.SUDO || "923466319114" ;
+global.devs = "923466319114";
+global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉",
+global.Gname = process.env.GNAME ||"sɪɢᴍᴀ ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
+global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
+global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
+global.website = 'http://lnkiy.in/GNIME-LITE-WEB' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://leadier-umbrellas.000webhostapp.com/1.jpg' ;
-//---------------------------------------------------------------------------
-//-------------------------------------
 module.exports = {
-  sessionName: process.env.SESSION_ID || 'lite;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1A5Q0dObGNHL0oxNlh0eHpqK0JlM1JJR0Nua2hUZlpqdGpoL3dUN1owdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSnRWU3VhQUpkWDAwZE5tRDFUeVpMc2g4RWp3SUVTdlBsQUt1RmNuMGkzWT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHTCtia0pKTnVIa2srZWNaRDJZUlhITWFPVkw2dTNzWlVLaDRnMHdIL2tZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5VXVad1NBNDhCMElOdjVENlpMSWFBQ1NHdGxuczNHdXBaMVdsZTVValZNPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJHM0JnN2tmU2Z4ZE81cWhFdXFGK3VsSGt2c2k0b3lJR25NNFVpVU5VMGM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im16bWtCclFzUU9McmxTcSsyVzJ5b0dIaVRVUjUweDhxNXpIQ2t5KzlVVnc9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIydFphZTM4YXBCUGNaRmhqK1NjaHBHc3dlNHV1RnZtdGhNdXQ0YmI1Sm80Z2lpcXhGLzlNSHVVUGwrOTBsV0p2Z29COE11WGN6WUo2Rm8reUJqendpQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjI1MywiYWR2U2VjcmV0S2V5IjoiVllpMFlGb1hWZzEwNHlMRUwxWitERC9qbDh6b3gvT2VHcTNuUGZ6ZGFwST0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoibV9PTzBUSzhST1dkZWRMWDJ6RFJFUSIsInBob25lSWQiOiI1MTQxM2I4OS1kZWZlLTRlYjYtYmVlNi1iMjVhOTRkYmQyNDMiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUlJTnl0QmVaaHh1SEgyeDlGMHB5dUFLMjlzPSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJSYXNIU0hNMHRqVk93OWduUFlzRnJlUkx3Y0U9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNNcVFwbTRRODlqZXJBWVlBaUFBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIyU2IzdlE2bnNoNjdPdVpvMkk2UHNQcndNaDd2VmpUVElpeW8yL0NQdDE4PSIsImFjY291bnRTaWduYXR1cmUiOiIxRU5vVlJJWTM0cTVaVlEycWE3RGVzbnRNVHZ3NE5DTFJGYnQ2SkwzTlJpdDIxWDR4a2lmNjdGTUM0R3B3azEvWHNCWWdUdnc0V3FlU0JPaTFwOUhEdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiSGhUZ0Nrb2szaVUrdXBlR01NMFFzc3k3RnhmMzV0UkNLUlNUd056cjJnYVZjcTZpaWJjb1JBbWFsUklGMFhNbVM3MDRsUmhJeWl0bGtqcHgvbU5taGc9PSJ9LCJtZSI6eyJpZCI6IjIzNDgwMzk2MDczNzU6NDVAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODAzOTYwNzM3NTo0NUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJka205NzBPcDdJZXV6cm1hTmlPajdENjhESWU3MVkwMHlJc3FOdndqN2RmIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzA0NDM4OTAyfQ==',
-  botname: process.env.BOT_NAME || 'ɢɴɪᴍᴇ ᴍᴅ',
-  ownername:  process.env.OWNER_NAME || `ᴀsᴛʀᴏ`,
-  author:  process.env.PACK_AUTHER || 'ᴀsᴛʀᴏ', 
+  sessionName: process.env.SESSION_ID || 'GNIME-LITE;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUlBTG1mNjRVMnFjN3c1VVV1aXdtanlZRFVjeHh4d1R2RzViYis5UnYyND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ2ljVnNqYVJ1S290QUlsWHVqVlV4Y08xYzlrSjNBZmdTQTQxcFlSSEFDTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPTlFmUklhVVNyb3drZlZQejFrd2NYOXhTMjcrQTI0VHRydnV5dmV4RFU4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5dTRmUVJ6WjVpN283ZG1TdDM5VjdBNFJ5MGJNWG1MT2hUTTFGcjNCTlZvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1GaThrSVgrN2kxL1lKMUdGYmM3b0xGQ3ozdE41TFllcVVIRFhNcXdhM0E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9QRUNUNE9KZ2dZRGMxeWp0SDdjZStaOEE3MS9Bc0xCNDF0YjEwa1l1VFE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0NWeG1PUGxqVUR3L0lKVHkvMjczUzBhT0lxUmJDK3kzR1VGS3JpZTBsaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMVlYWnB6MDQrN0FRQ0R1TVU2cW9BMEJkKzdYZWc1MkxxSE9UYTJDc2tTZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii9lZlJqVGJCRkNPMGZXcnZITzFMd1Z2d0hFNGR5THlldFZiNzd1cmJXZFlxYm1mTEkzeG1wMml6SFV6OFBiRTJUdWI3WVkwdkc2UnpMY21RUm1HWEFBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTM4LCJhZHZTZWNyZXRLZXkiOiJmSzN1SktrbFFTbElKb3JTQUU3a3RTWlA0SWpERVV3RXRwb3d0eEJlWVk0PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwMzk2MDczNzVAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQTlFRTRBQkFDRDkyMEE2ODQ5NjVBREQ3MTdCMURFN0QifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcwNDU0OTM2MX0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODAzOTYwNzM3NUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIxREEyQjk4QkYwQzQ2RTk5MTAwNDYxNTQ3RUM0MEJEMCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzA0NTQ5MzYyfSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyMzQ4MDM5NjA3Mzc1QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkVFRTREMkEwMzcxRjU1MUZEQjU3RDhCM0M4Q0I4OUMwIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MDQ1NDkzOTZ9LHsia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwMzk2MDczNzVAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQ0U0Mjg2MDM0RTNFMEJGNzE5MzZCMUY2RTQzOTU4NDkifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcwNDU0OTQyMH0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODAzOTYwNzM3NUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI3NkE4REY3MDIzNjY0NjdGRkUyRjkyQjQ2QTkzQ0I3NyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzA0NTQ5NDQ3fSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyMzQ4MDM5NjA3Mzc1QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6Ijg5RUUyMkI3MDYwMEU5MzBDMjZBNTFGRTA3RDJEQ0RFIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MDQ1NDk0NzF9LHsia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwMzk2MDczNzVAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiOEJERUY3MzY5OEVCMjg0NzQxMzlDMDJBQzFDOEUxQzAifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcwNDU0OTQ4MH0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODAzOTYwNzM3NUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJDMkVFQzZBRjA1NjA3OUZDM0FBMkVERjA4OEE3RTE2QSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzA0NTQ5NDgwfV0sIm5leHRQcmVLZXlJZCI6MTA3LCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MTA3LCJhY2NvdW50U3luY0NvdW50ZXIiOjEsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImUwRFhkbVloVHNPS1hQXzc0RDlDa2ciLCJwaG9uZUlkIjoiNjE2YWRkMzQtM2FlNS00YmI4LWFiZTUtMTRlZDRjOTA3YTMwIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik02azdLaVAyRnVNV0FPOW52bzNnZDNobWQ1Zz0ifSwicmVnaXN0ZXJlZCI6ZmFsc2UsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaHJXV25mbElncVFTaGxYRU8xV3ZsS3ltQnRrPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTXFRcG00UTZMZmxyQVlZQ1NBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiMlNiM3ZRNm5zaDY3T3VabzJJNlBzUHJ3TWg3dlZqVFRJaXlvMi9DUHQxOD0iLCJhY2NvdW50U2lnbmF0dXJlIjoidXhkNTFaeng2bmRQTkZ3QS8rQlN4eGlSamFoL0ZoMzFERVdDckpDMTlFcVRUV1dZVWpjd3lVQ3Z1cFJucjRyT2MvSXlZQ1JhQnFoQzdlcWVoWnJJQUE9PSIsImRldmljZVNpZ25hdHVyZSI6IjlBS3VQL1libW8rRWpaUW5lTWltNXlZMlBVYkRhMVZudmFoaHFqZk5mTWtzUnlWa1hwWHVEUWJmVXpZK3N0a1hGMUtlRHlqK1lZWnptaEFabDBBekNRPT0ifSwibWUiOnsiaWQiOiIyMzQ4MDM5NjA3Mzc1OjUyQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuG0gOqcseG0m8qA4bSPIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgwMzk2MDczNzU6NTJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZGttOTcwT3A3SWV1enJtYU5pT2o3RDY4REllNzFZMDB5SXNxTnZ3ajdkZiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcwNDU0OTU5OCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFDdTUifQ==',
+  botname: process.env.BOT_NAME || 'sɪɢᴍᴀ ᴹᴰ',
+  ownername:  process.env.OWNER_NAME || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`,
+  author:  process.env.PACK_AUTHER || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "ɢɴɪᴍᴇ ᴍᴅ" , 
+  packname:  process.env.PACK_NAME || "sɪɢᴍᴀ ᴹᴰ" , 
   autoreaction: process.env.AUTO_REACTION || 'true',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
@@ -43,19 +40,18 @@ module.exports = {
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'true', 
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
-  antilinkaction: process.env.BRANCH || 'warn',
+  antilinkaction: process.env.BRANCH || 'remove',
   BRANCH: process.env.BRANCH || 'Main',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "34wcCGPoe3yaGtpiBZgx4SN7",
-  caption :process.env.CAPTION || "\t*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɴɪᴍᴇ ᴍᴅ* ",  
+  caption :process.env.CAPTION || "\t*ɢɴɪᴍᴇ-ʟɪᴛᴇ 2024* ",
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' , // add your openai key if you have it
-  VERSION: process.env.VERSION || 'V.1.50',
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
+  VERSION: process.env.VERSION || '𝚅.𝟷.𝟸.𝟽',
   LANG: process.env.THEME|| 'GNIME',
-  WORKTYPE: process.env.WORKTYPE || 'private'
+  WORKTYPE: process.env.WORKTYPE || 'public'
 };
-
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {

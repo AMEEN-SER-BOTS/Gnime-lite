@@ -1,13 +1,18 @@
-const { Module_Exports, parseJid,getAdmin,tlang } = require("../lib/");
+
+
+
+
+ const { Module_Exports, parseJid,getAdmin,tlang } = require("../lib/");
  const eco = require('discord-mongoose-economy')
  const ty = eco.connect(mongodb);
+
 
  Module_Exports(
   {
     kingcmd: "dice",
     infocmd: "Play TicTacToe",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime cmd",
   },
   async (Void,citel,text) => {
     const randomNumber = Math.floor(Math.random() * 6);
@@ -23,7 +28,7 @@ Module_Exports(
     kingcmd: "delttt",
     infocmd: "deletes TicTacToe running session.",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime cmd",
   },
   async (Void,citel,text,{isCreator}) => {
         if (!citel.isGroup) return citel.reply(tlang().group);
@@ -52,7 +57,7 @@ Module_Exports(
     kingcmd: "ttt",
     infocmd: "Play TicTacToe",
     kingpth: __filename,
-    kingclass: "game",
+    kingclass: "pastime cmd",
   },
   async (Void,citel,text) => {
     if (!citel.isGroup) return citel.reply(tlang().group);
@@ -190,7 +195,7 @@ ${ isWin ? `@${winner.split("@")[0]} Won ! and got 2000💎 in wallet🤑` : isT
   }
 );
 
-Module_Exports({ kingcmd: "ship" , kingclass: "fun" }, async(Void, citel, text) => {
+Module_Exports({ kingcmd: "ship" , kingclass: "pastime cmd" }, async(Void, citel, text) => {
     const { tlang } = require('../lib')
    if (!citel.isGroup) return citel.reply(tlang().group);
    const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
@@ -220,14 +225,13 @@ Module_Exports({ kingcmd: "ship" , kingclass: "fun" }, async(Void, citel, text) 
        shiper = members[Math.floor(Math.random() * members.length)]
        }
        let caption = `\t❣️ *Matchmaking...* ❣️ \n`
-        caption += `\t\t✯────────────────────✯\n`
+        caption += `\t\t✯──────────────✯\n`
         caption += `@${citel.sender.split('@')[0]}  x  @${shiper.split('@')[0]}\n`
-        caption += `\t\t✯────────────────────✯\n`
+        caption += `\t\t✯──────────────✯\n`
         caption += await couple(percentage)
         if(citel.sender.split('@')[0]===shiper.split('@')[0]) return citel.reply('```'+'Wait... What!!!,You wanna do matchmaking with yourself!!'+'```')
         await Void.sendMessage(citel.chat,{text: caption,mentions: [citel.sender,shiper]},{quoted:citel})
    }
 )
 // These Games are Developed By @Maher-Zubair
-// whatsapp +2348039607375
-// Usage and copyRights are reserved
+// whatsapp +2348039607375// Usage and copyRights are reserved

@@ -1,8 +1,10 @@
-const { tlang,sck,prefix,Module_Exports } = require('../lib')
+
+
+ const { tlang,sck,prefix,Module_Exports } = require('../lib')
  Module_Exports({
      kingcmd: "amute",
      infocmd: "sets auto mute time in group.",
-     kingclass: "group commands",
+     kingclass: "group",
  },
  async(Void, citel, text,{ isCreator }) => {
      if (!isCreator) return citel.reply(tlang().owner)
@@ -23,9 +25,9 @@ const { tlang,sck,prefix,Module_Exports } = require('../lib')
 
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "autounmute",
+    kingcmd: "aunmute",
     infocmd: "sets unmute time in group.",
-    kingclass: "group commands",
+    kingclass: "group",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -46,9 +48,9 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "delunmute",
+    kingcmd: "dunmute",
     infocmd: "Delete unmute from group.",
-    kingclass: "group commands",
+    kingclass: "group",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
@@ -65,9 +67,9 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "delmute",
+    kingcmd: "dmute",
     infocmd: "Delete mute from group.",
-    kingclass: "group commands",
+    kingclass: "group",
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)

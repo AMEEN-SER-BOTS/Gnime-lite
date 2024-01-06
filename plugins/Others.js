@@ -1,1 +1,84 @@
-function _0x4f78(){const _0xca6d2e=['ᴛᴀᴘ\x20ʜᴇʀᴇ\x20ᴛᴏ\x20ᴍᴇssᴀɢᴇ\x20ᴍᴇ','9527427fPpHfE','3010LTmHLc','\x20\x0a╰────────────╯\x0a','alive','1446SLiaEu','numeric','ɢɴɪᴍᴇ','0@s.whatsapp.net','chat','getHours','sends\x20developer\x20number\x20for\x20contact','*_Your\x20Timezone\x20Is\x20Incorrect_*','https://wa.me/2348039607375','ɢᴏᴏᴅ\x20ᴇᴠᴇɴɪɴɢ\x20🌥','13349ZOdcrx','sendMessage','floor','3193305LTOSBB','❏\x20ɢɴɪᴍᴇ\x0aᴡʜᴀᴛsᴀᴘᴘ\x20ʙᴏᴛ\x20ʙʏ\x20ᴀsᴛʀᴏ','creator','732770jRWhCI','random','tnow','┏━━↱\x20ɢɴɪᴍᴇ\x20↰━\x0a〣\x20*ᴄʀᴇᴀᴛᴏʀ\x20ᴀꜱᴛʀᴏ\x20*\x20\x0a〣\x20*ɢɴɪᴍᴇ*\x20\x0a〣\x20*ɴᴜᴍʙᴇʀ*\x20https://wa.me/2348039607375\x0a〣\x20*sᴀᴠᴇ\x20ᴍʏ\x20ɴᴜᴍʙᴇʀ*\x0a〣\x20*ʙᴇғᴏʀᴇ\x20ᴍᴇssᴀɢᴇ*\x0a┗━━━━━━━━━━\x0a\x20\x20\x20\x20\x20\x20\x20\x20*ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ*\x20ɢɴɪᴍᴇ','timezone','Show\x20Live\x20Time\x20Of\x20Nigeria','9167352OPKaqk','38489yzqGGD','long','8ehtiwv','toLocaleDateString','4tlGXuJ','../lib','general\x20commands','546524SuuYvY','split','status@broadcast','toLocaleString','2NrUPZO','reply'];_0x4f78=function(){return _0xca6d2e;};return _0x4f78();}const _0x163f95=_0xf6a6;function _0xf6a6(_0x4237ff,_0x2e89d1){const _0x4f7836=_0x4f78();return _0xf6a6=function(_0xf6a6bf,_0x54f522){_0xf6a6bf=_0xf6a6bf-0x17f;let _0x4473e3=_0x4f7836[_0xf6a6bf];return _0x4473e3;},_0xf6a6(_0x4237ff,_0x2e89d1);}(function(_0x449ea2,_0xa1c7d6){const _0x2a25a9=_0xf6a6,_0x347443=_0x449ea2();while(!![]){try{const _0x4b4e71=-parseInt(_0x2a25a9(0x1a7))/0x1*(-parseInt(_0x2a25a9(0x182))/0x2)+parseInt(_0x2a25a9(0x196))/0x3+parseInt(_0x2a25a9(0x1a4))/0x4*(parseInt(_0x2a25a9(0x199))/0x5)+parseInt(_0x2a25a9(0x189))/0x6*(parseInt(_0x2a25a9(0x193))/0x7)+-parseInt(_0x2a25a9(0x1a2))/0x8*(parseInt(_0x2a25a9(0x185))/0x9)+-parseInt(_0x2a25a9(0x186))/0xa*(parseInt(_0x2a25a9(0x1a0))/0xb)+parseInt(_0x2a25a9(0x19f))/0xc;if(_0x4b4e71===_0xa1c7d6)break;else _0x347443['push'](_0x347443['shift']());}catch(_0x1fa254){_0x347443['push'](_0x347443['shift']());}}}(_0x4f78,0xd437c));const {Module_Exports,name}=require(_0x163f95(0x1a5)),hrs=new Date()[_0x163f95(0x18e)]({'timeZone':global[_0x163f95(0x19d)]}),get_localized_date={'weekday':_0x163f95(0x1a1),'year':_0x163f95(0x18a),'month':_0x163f95(0x1a1),'day':_0x163f95(0x18a)};Module_Exports({'kingcmd':_0x163f95(0x198),'shortcut':['dnum'],'infocmd':_0x163f95(0x18f),'kingclass':'creator\x20commands'},async(_0x37a8ad,_0x5bbd27,_0x525639)=>{const _0x414b59=_0x163f95;await _0x37a8ad[_0x414b59(0x194)](_0x5bbd27[_0x414b59(0x18d)],{'text':_0x414b59(0x19c),'contextInfo':{'externalAdReply':{'title':_0x414b59(0x18b),'body':_0x414b59(0x184),'thumbnail':devp,'mediaType':0x4,'mediaUrl':'','sourceUrl':_0x414b59(0x191)}}});}),Module_Exports({'kingcmd':'timenow','shortcut':[_0x163f95(0x19b)],'infocmd':_0x163f95(0x19e),'kingclass':_0x163f95(0x1a6),'kingpath':__filename,'use':''},async(_0x34d332,_0x2c10ee,_0x3975a5)=>{const _0x48bd31=_0x163f95;try{var _0x391d68=new Date()[_0x48bd31(0x181)]('HI',{'timeZone':global[_0x48bd31(0x19d)]})[_0x48bd31(0x17f)]('\x20')[0x1],_0x184188=new Date()[_0x48bd31(0x1a3)](get_localized_date),_0xf1604c='';if(hrs<0xc)_0xf1604c='ɢᴏᴏᴅ\x20ᴍᴏʀɴɪɴɢ\x20⛅';if(hrs>=0xc&&hrs<=0x10)_0xf1604c='ɢᴏᴏᴅ\x20ᴀғᴛᴇʀɴᴏᴏɴ\x20🌞';if(hrs>=0x10&&hrs<=0x14)_0xf1604c=_0x48bd31(0x192);if(hrs>=0x14&&hrs<=0x18)_0xf1604c='ʙᴇᴅ\x20ᴛɪᴍᴇ\x20🌙';var _0x511578='';if(hrs<0xc)_0x511578='ᴀᴍ';if(hrs>=0xc&&hrs<=0x18)_0x511578='ᴘᴍ';const _0x57b913=[0x63,0x51,0x7e7,0x7d5,0x4e,0x1388],_0x4ecda7={'key':{'fromMe':![],'participant':_0x48bd31(0x18c),'remoteJid':_0x48bd31(0x180)},'message':{'orderMessage':{'itemCount':_0x57b913[Math[_0x48bd31(0x195)](0x8*Math[_0x48bd31(0x19a)]())],'status':0x1,'surface':0x1,'message':_0x48bd31(0x197),'orderTitle':_0x48bd31(0x188),'sellerJid':'2348039607375@s.whatsapp.net'}}};let _0x456383='\x0a╭────────────╮\x0a│\x20\x20\x20\x20*'+_0xf1604c+'*\x20\x0a│\x20\x20\x20\x20*ᴛɪᴍᴇ*\x20⌚\x20'+_0x391d68+'\x20'+_0x511578+'\x0a│\x20\x20\x20\x20*ᴅᴀᴛᴇ*\x20🗓️\x20\x20'+_0x184188+_0x48bd31(0x187);return await _0x34d332[_0x48bd31(0x194)](_0x2c10ee['chat'],{'text':_0x456383},{'quoted':_0x4ecda7});}catch(_0x49e51c){_0x2c10ee[_0x48bd31(0x183)](_0x48bd31(0x190));}});
+//══════════════════════════════════════════════════════════════════════════════════════════════════════// 
+//                                                                                                      //
+//                                   MULTI-DEVICE WHATSAPP BOT                                          //
+//                                                                                                      //
+//                                            𝚅.𝟷.𝟸.𝟽                                                   //
+//                                                                                                      //
+//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
+//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
+//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
+//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
+//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
+//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
+//                                                                                                      //
+//                                          BY:MAHER-ZUBAIR                                             //
+//                                                                                                      //
+//                                                                                                      //
+//══════════════════════════════════════════════════════════════════════════════════════════════════════//
+const {Module_Exports,name } = require('../lib')
+const hrs = new Date().getHours({ timeZone: global.timezone })
+const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
+Module_Exports({
+    kingcmd: "devnum",
+shortcut: ["dnum"],
+    infocmd: "sends developer number for contact",
+    kingclass: "developer",
+},
+async(Void, citel, text,) => {
+function _0x3396(_0x5e30fc,_0x3484a4){var _0xb2f415=_0x61cf();return _0x3396=function(_0x108013,_0x3c668e){_0x108013=_0x108013-(0x4ad+-0x17*-0x113+0x12d*-0x18);var _0x31c2ed=_0xb2f415[_0x108013];return _0x31c2ed;},_0x3396(_0x5e30fc,_0x3484a4);}var _0x3b8f0d=_0x3396;(function(_0x310acd,_0x4f8b0c){var _0x58912c=_0x3396,_0x1dde0b=_0x310acd();while(!![]){try{var _0x21ca36=parseInt(_0x58912c(0x12b))/(-0x2192+-0x1*-0x270e+-0x57b*0x1)*(parseInt(_0x58912c(0x136))/(0x227f+0x1553+0x8*-0x6fa))+parseInt(_0x58912c(0x139))/(-0x1cd4+0x1*0x753+0x1584)+parseInt(_0x58912c(0x142))/(0x5b9*0x3+-0x2*0x12df+-0x7*-0x2f1)+-parseInt(_0x58912c(0x14e))/(0x1*0x1d8c+0xfad*0x1+-0x2d34)+parseInt(_0x58912c(0x131))/(-0x1666+0x269f*-0x1+-0x3d0b*-0x1)*(parseInt(_0x58912c(0x13f))/(0x187d*-0x1+-0x1*0x163+0x19e7))+-parseInt(_0x58912c(0x140))/(-0xe8e+-0x1dba+0x2c50)*(-parseInt(_0x58912c(0x144))/(-0x1d60+0x8a6+0x14c3))+-parseInt(_0x58912c(0x14a))/(0x7e5+0x1*-0x25b7+-0x222*-0xe);if(_0x21ca36===_0x4f8b0c)break;else _0x1dde0b['push'](_0x1dde0b['shift']());}catch(_0x50182b){_0x1dde0b['push'](_0x1dde0b['shift']());}}}(_0x61cf,-0x568*0x1+-0x24529+-0x6312b*-0x1),await Void[_0x3b8f0d(0x13e)+'e'](citel[_0x3b8f0d(0x13d)],{'text':_0x3b8f0d(0x143)+_0x3b8f0d(0x13b)+_0x3b8f0d(0x14d)+_0x3b8f0d(0x145)+_0x3b8f0d(0x132)+_0x3b8f0d(0x135)+_0x3b8f0d(0x130)+_0x3b8f0d(0x137)+_0x3b8f0d(0x14b)+_0x3b8f0d(0x149)+_0x3b8f0d(0x148)+_0x3b8f0d(0x141)+_0x3b8f0d(0x146)+_0x3b8f0d(0x13a)+_0x3b8f0d(0x134)+_0x3b8f0d(0x133)+_0x3b8f0d(0x12d)+_0x3b8f0d(0x147)+_0x3b8f0d(0x14c),'contextInfo':{'externalAdReply':{'title':_0x3b8f0d(0x138)+'ɪʀ','body':_0x3b8f0d(0x12f)+_0x3b8f0d(0x12c)+'ᴍᴇ','thumbnail':devp,'mediaType':0x4,'mediaUrl':'','sourceUrl':_0x3b8f0d(0x12a)+_0x3b8f0d(0x13c)+_0x3b8f0d(0x12e)}}}));function _0x61cf(){var _0x817be3=['\x20ᴢᴜʙᴀɪʀ*\x20','2SNujFC','ᴇʀ*\x20https','ᴍᴀʜᴇʀ\x20ᴢᴜʙᴀ','66687FNqyFD','ᴇғᴏʀᴇ\x20ᴍᴇss','♥︎🆉\x20⟫━┈⊷\x0a││✵\x20','.me/923466','chat','sendMessag','329ReXeyz','1496RddZlW','ᴇ\x20ᴍʏ\x20ɴᴜᴍʙᴇ','795572tSzvSj','╭────⟪⟪\x20🅼♥︎❚❚','7443UiQBRH','ʀ\x20ɴᴀᴍᴇ*\x20\x0a','ʀ*\x0a││✵\x20*ʙ','ᴏᴡᴇʀᴇᴅ\x20ʙʏ','4\x0a││✵\x20*sᴀᴠ','2346631911','4509560YTHgWG','://wa.me/9','*\x20sɪɢᴍᴀ\x20ᴹᴰ','*ᴅᴇᴠᴇʟᴏᴘᴇ','425000KycFJY','https://wa','136318oDEFpU','ᴏ\x20ᴍᴇssᴀɢᴇ\x20','\x20\x20\x20\x20\x20\x20\x20*ᴘ','319114','ᴛᴀᴘ\x20ʜᴇʀᴇ\x20ᴛ','\x0a││✵\x20*ɴᴜᴍʙ','35682LbaAEZ','││✵\x20*ᴍᴀʜᴇʀ','────────━┈⊷\x0a\x20','ᴀɢᴇ*\x0a╰━────'];_0x61cf=function(){return _0x817be3;};return _0x61cf();}
+        });
+
+
+    //--------------------------------------------------------------
+    Module_Exports({
+        kingcmd: "timenow",
+    shortcut: ["tnow"],
+        infocmd: "Show Live Time Of Pakistan",
+        kingclass: "user cmd",
+          kingpath: __filename,
+        use: '',
+    },
+    async(Void, citel, text) => {
+try{
+var sigma_time = new Date().toLocaleString('HI', { timeZone: global.timezone }).split(' ')[1]
+var sigma_date = new Date().toLocaleDateString(get_localized_date)
+var sigma_wish = ''
+if (hrs < 12) sigma_wish = 'ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅'
+if (hrs >= 12 && hrs <= 16) sigma_wish = 'ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞'
+if (hrs >= 16 && hrs <= 20) sigma_wish = 'ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥'
+if (hrs >= 20 && hrs <= 24) sigma_wish = 'ʙᴇᴅ ᴛɪᴍᴇ 🌙'
+var am_pm = ''
+if (hrs < 12) am_pm = 'ᴀᴍ'
+if (hrs >= 12 && hrs <= 24) am_pm = 'ᴘᴍ'
+const Zubair= [99,81,2023,2005,78,5000]
+const king = {
+key: {
+fromMe: false,
+participant: "0@s.whatsapp.net",
+remoteJid: "status@broadcast"
+},
+message: {
+    "orderMessage": {
+       "itemCount" : Zubair[Math.floor(8*Math.random())],
+       "status": 1,
+       "surface" : 1,
+       "message": `❏ sɪɢᴍᴀ ᴹᴰ\nᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙʏ ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`,
+       "orderTitle": "alive",
+       "sellerJid": '923466319114@s.whatsapp.net' 
+    }
+  }
+}
+
+let Maher =`
+╭────────╮
+│    *${sigma_wish}* 
+│    *ᴛɪᴍᴇ* ⌚ ${sigma_time} ${am_pm}
+│    *ᴅᴀᴛᴇ* 🗓️  ${sigma_date} 
+╰────────╯
+`
+return await Void.sendMessage(citel.chat, { text:Maher }, { quoted : king } )}
+catch(e){citel.reply("*_Your Timezone Is Incorrect_*")}
+})
+//---------------------------------------------------------------
+

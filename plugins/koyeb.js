@@ -1,4 +1,9 @@
-const axios = require('axios');
+
+
+ 
+
+
+/**const axios = require('axios');
 const { tlang,cmd } = require('../lib')
 const { redeploy , getvar , delvar , getallvar , change_env , get_deployments} = require('../lib/koyeb')
 
@@ -8,7 +13,7 @@ cmd(
     pattern: "updatenow",
     desc: "update bot with refreshed commit.",
     filename: __filename,
-    category: "misc commands",
+    category: "misc",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -23,7 +28,7 @@ cmd(
     pattern: "koyebgetvar",
     desc: "get desired var from koyeb.",
     filename: __filename,
-    category: "misc commands",
+    category: "misc",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -37,7 +42,7 @@ cmd(
     pattern: "getallvar",
     desc: "get all vars from koyeb.",
     filename: __filename,
-    category: "misc commands",
+    category: "misc",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -50,7 +55,7 @@ cmd(
     pattern: "koyebsetvar",
     desc: "set var in koyeb.",
     filename: __filename,
-    category: "misc commands",
+    category: "misc",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -67,7 +72,7 @@ cmd(
     pattern: "koyebdelvar",
     desc: "delete var from koyeb.",
     filename: __filename,
-    category: "misc commands",
+    category: "misc",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -77,3 +82,4 @@ cmd(
        let data = await delvar(text)
        return citel.reply(data)
   })
+**/

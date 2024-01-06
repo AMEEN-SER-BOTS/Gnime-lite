@@ -1,3 +1,4 @@
+
 const { tlang, Module_Exports, sleep, getBuffer, prefix, name } = require('../lib')
 const ytdl = require('ytdl-secktor')
 const yts = require('secktor-pack')
@@ -9,7 +10,7 @@ var dlsize = 250 // 250mb
 Module_Exports({
             kingcmd: "playlist",
             infocmd: "Downloads video from playlist.",
-            kingclass: "download commands",
+            kingclass: "downloader",
             kingpath: __filename,
             use: '<yt playlist url>',
         },

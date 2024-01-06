@@ -1,3 +1,5 @@
+
+
 const DB = require('../lib/scraper')
 const { tlang, name, prefix, Module_Exports } = require('../lib')
 const simpleGit = require('simple-git');
@@ -28,7 +30,7 @@ Module_Exports({
             kingcmd: "update",
             shortcut: ["ud"],
             infocmd: "Shows repo\'s refreshed commits.",
-            kingclass: "tool commands",
+            kingclass: "tools",
             kingpath: __filename
         },
         async(Void, citel, text,{ isCreator }) => {
@@ -64,7 +66,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
                  kingcmd: "updatebot",
                  shortcut: ["ubot"],
                  infocmd: "Shows repo\'s refreshed commits.",
-                 kingclass: "tool commands",
+                 kingclass: "tools",
                  kingpath: __filename
              },
         async(Void, citel, text,{ isCreator }) => {
@@ -74,7 +76,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
                 let update = await DB.sync()
                 let buttonMessaged = 
                 {
-                     text:" ♕ *Updating Your Bot...!*\n  *✧────────────────────────✧*\n"+update +"\n  *✧────────────────────────✧*",
+                     text:" ♕ *Updating Your Bot...!*\n  *★────────────────★*\n"+update +"\n  *★────────────────★*",
                      footer: 'UPDATER --- sᴜʜᴀɪʟ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo',
                      headerType: 4,
                 };
@@ -89,7 +91,7 @@ if(name.HEROKU_APP_NAME && name.HEROKU_API_KEY )
 Module_Exports({
     kingcmd: "update all",
     infocmd: "Shows repo's refreshed commits.",
-    kingclass: "tool commands",
+    kingclass: "tools",
     kingpath: __filename
 },
 async(Void, citel, text,{ isCreator }) => {
