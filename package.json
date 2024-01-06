@@ -1,7 +1,7 @@
 {
           "name": "GNIME-LITE",
           "version": "2.0.1",
-          "description": "GNIME-LITE A Whatsapp Bot By Maher Zubair",
+          "description": "GNIME-LITE A Whatsapp Bot By Astro",
           "main": "lib/client.js",
           "type": "commonjs",
           "license": "GPL-3.0",
@@ -9,7 +9,7 @@
                     "start": "pm2 start lib/client.js --deep-monitoring --attach --name GNIME-LITE",
                     "stop": "pm2 stop GNIME-LITE"
           },
-          "author": "Maher Zubair",
+          "author": "Astro",
           "dependencies": {
                     "@adiwajshing/keyed-db": "^0.2.4",
                     "@bochilteam/scraper": "latest",

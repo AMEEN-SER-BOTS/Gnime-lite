@@ -3,7 +3,7 @@
 </p>
 <p align="center">
   <a href="https://gihtub.com/Astropeda">
-    <img alt=Lite height="350px" widith="500px" src="https://leadier-umbrellas.000webhostapp.com/botpic.jpg"> 
+    <img alt=Lite height="350px" widith="500px" src="https://leadier-umbrellas.000webhostapp.com/5.jpg"> 
     </p>
 
 <p align="center">

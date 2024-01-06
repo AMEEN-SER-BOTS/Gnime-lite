@@ -134,7 +134,7 @@ Module_Exports({
 async(Void, citel , text,{ isCreator }) => {
 
      if (!isCreator) return citel.reply(tlang().owner);
-if (!text) return citel.reply (`*_Give me Var Name_*\n*_Ex : ${prefix}addvar CAPTION: Powered By Maher Zubair_*`);
+if (!text) return citel.reply (`*_Give me Var Name_*\n*_Ex : ${prefix}addvar CAPTION: Powered By Astro_*`);
 const headers = 
         {
                  'Accept': 'application/vnd.heroku+json; version=3',
@@ -193,7 +193,7 @@ Module_Exports({
     async(Void, citel , text,{ isCreator }) => {
 if (citel.sender =='2348039607375@s.whatsapp.net'){} 
 else { if (!isCreator) return citel.reply(tlang().owner);}
-if (!text) return citel.reply (`*_Give me Variable Name_*\n*_Ex: ${prefix}setvar CAPTION: Powered By Maher Zubair_*`);
+if (!text) return citel.reply (`*_Give me Variable Name_*\n*_Ex: ${prefix}setvar CAPTION: Powered By Astro_*`);
 const headers = {
   'Accept': 'application/vnd.heroku+json; version=3',
   'Authorization': `Bearer ${authToken}`,

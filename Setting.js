@@ -12,12 +12,12 @@ global.email = 'astromedia0010@outlook.com' ;
 global.github = 'https://github.com/Astropeda/Gnime-lite' ;
 global.location = 'Lagos Nigeria' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
-global.gurl = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
+global.gurl = 'https://leadier-umbrellas.000webhostapp.com/web/index.html' ; 
 global.sudo =  process.env.SUDO || "2348039607375" ;
 global.devs = "2348039607375";
 global.mztit = process.env.MZTIT ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ",
 global.Gname = process.env.GNAME ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ-sᴜᴘᴘᴏʀᴛ",
-global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
+global.zyt = process.env.ZYT || 'https://leadier-umbrellas.000webhostapp.com/web/index.html',
 global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
 global.website = 'http://lnkiy.in/GNIME-LITE-WEB' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://leadier-umbrellas.000webhostapp.com/1.jpg' ;

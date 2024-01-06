@@ -1,14 +1,14 @@
 {
-  "name": "GNIME-LITE WHATSAPP BOT BY MAHER ZUBAIR",
-  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium. For Any Help See My YT:https://www.youtube.com/@InnoxentTech",
+  "name": "GNIME-LITE WHATSAPP BOT BY ASTRO",
+  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium.",
   "logo": "https://telegra.ph/file/e5768d0b5a4441b4e576b.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "GNIME", "SIGMA_BOT", "SIGMA","GNIME-BOT","Multi-Themes Bot","multi device"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "GNIME", "SIGMA_BOT", "SIGMA","GNIME-BOT"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Maher Zubair"
+      "value": "Astro"
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
@@ -16,8 +16,7 @@
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
-     "value": "",
-	 "required" :true 
+     "value": ""
     },
 "HEROKU_APP_NAME": {
     "description": "Put Your Heroku App Name Here. Same as Above",
@@ -31,7 +30,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
 "AUTO_READ_STATUS": {
     "description": "Fill the value true if you  want bot view your Statuses. and send them in your inbox",
@@ -60,14 +59,14 @@
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
-      "value": "."
+      "value": ","
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
        "value": "2348039607375"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit to get Session id\nhttps://replit.com/@Mehar-Zubair/GNIME-LITE?v=1"
+    "description": "Please put your SESSION_ID here,if you don't have visit to get Session id"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
@@ -76,16 +75,17 @@
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see when a new user joins a Group.",
-       "value": " @pp *_HI Dear @user_*\n*_Welcome In ♥️ @gname_*\n*_Read The Description CareFully_*\n\n\n*_Support Me By Subscribing_*\n*_https://www.youtube.com/@InnoxentTech_*",
+       "value": " @pp *_@user_*\n*_Welcome to @gname_*\n*_Read The Description CareFully_*",
        "required" :false
   },
   "MONGODB_URI": {
     "description": "Add Your Own, If you have key. Its a secret String for Mongodb Connection",
-     "value": "mongodb+srv://Maher-Zubair:GNIME-LITE@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+     "value": ""
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public"
+         "value": "private",
+         "required": "true"
   },
       "AUTO_REACTION": {
     "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
@@ -119,7 +119,7 @@
 },
 "WAURL": {
   "description": "Add Your Group Link.You Can See IT IN Most Commands",
-   "value": "https://chat.whatsapp.com/JM1yBMlveulDrAN22jHcWV",
+   "value": "https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB",
     "required": false
 },
 "BOT_NAME": {

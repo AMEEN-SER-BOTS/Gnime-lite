@@ -271,7 +271,7 @@ return await sigma.sendMessage(person.chat, king,{quoted:person});
          async(Void, citel, text) => {
 
 if (!citel.quoted) return citel.reply (`*Please Reply to User With Name*`);
-if ( !text ) return citel.reply( `*_Please Reply User With Name_*\n *Example: ${prefix}vcard Maher Zubair*`)
+if ( !text ) return citel.reply( `*_Please Reply User With Name_*\n *Example: ${prefix}vcard Astro*`)
 var words = text.split(" ");
 if (words.length >3) {   text= words.slice(0, 3).join(' ')  }
 // citel.reply(text);
@@ -431,7 +431,7 @@ const vcard = 'BEGIN:VCARD\n' +
         shortcut: ["ftext"],
         infocmd: "Flips given text.",
         kingclass: "misc cmd",
-        use: 'Maher Zubair',
+        use: 'Astro',
         kingpath: __filename,
     },
     async(sigma, person, memo) => {
@@ -583,7 +583,7 @@ const buffer = await sticker.toBuffer();
          },
          async(Void, citel, text) => {
              try {
-                 if (!text) return citel.reply(`Send text to be encoded.\nEx: ${prefix}ebinary hi My I am Maher Zubair`);
+                 if (!text) return citel.reply(`Send text to be encoded.\nEx: ${prefix}ebinary hi My I am Astro`);
  
                  let textt = text || citel.quoted.text
                  let eb = await eBinary(textt);
@@ -603,7 +603,7 @@ const buffer = await sticker.toBuffer();
          },
          async(Void, citel, text) => {
              try {
-                 if (!text) return citel.reply(`Send text to be Decoded.\nEx: ${prefix}dbinary hi My I am Maher Zubair`);
+                 if (!text) return citel.reply(`Send text to be Decoded.\nEx: ${prefix}dbinary hi My I am Astro`);
                  let eb = await dBinary(text);
                  citel.reply(eb);
              } catch (e) {

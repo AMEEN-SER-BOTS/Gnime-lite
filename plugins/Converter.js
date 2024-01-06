@@ -363,7 +363,7 @@ Module_Exports({
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return citel.send(img,{packname:name.packname,author:'Maher Zubair'},"sticker")
+            return citel.send(img,{packname:name.packname,author:'Astro'},"sticker")
 
         }
     )
@@ -476,7 +476,7 @@ Module_Exports({
 async(Void, citel,text) => { 
 if (!text) { text=citel.quoted.text;}
     if(!text) return citel.reply('*_Please Reply To Any Text To Get Link._*');
-    let data = await pastebin.createPaste(text, "Maher Zubair");
+    let data = await pastebin.createPaste(text, "Astro");
     return citel.reply(`*_Here is your link._*\n`+data+`\n${sgen}`);
 }
 );
