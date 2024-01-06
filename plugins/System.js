@@ -392,7 +392,3 @@ const alivtxt = `${alivemessage}\n\n*_Type ${prefix}menu For My Commands list._*
   return sigma.sendMessage(citel.chat, messageOptions,{quoted : citel });
         }
     )
-
-
-// All These System Commands Are Developed By @Maher-Zubair
-// Whatsapp +2348039607375// Usage And CopyRights Are Reserved

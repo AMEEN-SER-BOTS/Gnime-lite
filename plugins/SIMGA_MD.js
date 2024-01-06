@@ -73,7 +73,7 @@
     let e = [];
     const f = c ? d.find(a => a.kingcmd === c) : false;
     if (f) {
-      e.push("╭────⟪ " + mztit + " ⟫━┈⊷\n││✵ ᴄᴏᴍᴍᴀɴᴅ " + f.kingcmd);
+      e.push("╭────⟪ " + mztit + " 〕━┈⊷\n││✵ ᴄᴏᴍᴍᴀɴᴅ " + f.kingcmd);
       if (f.kingclass) {
         e.push("││✵ ᴄᴀᴛᴇɢᴏʀʏ " + f.kingclass);
       }
@@ -104,7 +104,7 @@
         timeZone: global.timezone
       }).split(",");
       let h = await sck1.countDocuments();
-      let i = "╭────⟪⟪ " + mztit + " ⟫━━┈⊷      \n││✵ *ᴡᴇʟᴄᴏᴍᴇ* " + b.pushName + "\n││✵ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n││✵ *ᴏᴡɴᴇʀ* " + name.ownername + "\n││✵ *ᴘʀᴇғɪx* ❑ *" + prefix + "* ❑\n││✵ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n││✵ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n││✵ *ᴛɪᴍᴇ* " + f + "\n││✵ *ᴅᴀᴛᴇ* " + e + "\n││✵ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n││✵ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n││✵ *ᴘʟᴜɢɪɴs* " + d.length + "\n││✵ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n││✵ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n││✵ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n││✵ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴍ ᴢᴜʙᴀɪʀ*\n╰━━────────────┈⊷       \n\n" + sɪɢᴍᴀ_readmore + "\n";
+      let i = "╭────〔 " + mztit + " 〕━━┈⊷      \n││✵ *ᴡᴇʟᴄᴏᴍᴇ* " + b.pushName + "\n││✵ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n││✵ *ᴏᴡɴᴇʀ* " + name.ownername + "\n││✵ *ᴘʀᴇғɪx* ❑ *" + prefix + "* ❑\n││✵ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n││✵ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n││✵ *ᴛɪᴍᴇ* " + f + "\n││✵ *ᴅᴀᴛᴇ* " + e + "\n││✵ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n││✵ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n││✵ *ᴘʟᴜɢɪɴs* " + d.length + "\n││✵ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n││✵ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n││✵ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n││✵ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴍ ᴢᴜʙᴀɪʀ*\n╰━━────────────┈⊷       \n\n" + sɪɢᴍᴀ_readmore + "\n";
       let j = false;
       for (const a in g) {
         i += "╭────❑ " + tiny(a) + " ❑\n";
@@ -160,7 +160,7 @@ sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
    let Maher = [];
           const cmd = commands.find((cmd) => cmd.kingcmd === (text.split(" ")[0].toLowerCase()))
           if (!cmd) return await person.reply("ɴᴏ sᴜᴄʜ ᴄᴏᴍᴍᴀɴᴅs");
-          else Maher.push(`╭────⟪⟪ ${mztit} ⟫━┈⊷\n││✵ ᴄᴏᴍᴍᴀɴᴅ ${cmd.kingcmd}`);
+          else Maher.push(`╭────〔 ${mztit} 〕━┈⊷\n││✵ ᴄᴏᴍᴍᴀɴᴅ ${cmd.kingcmd}`);
           if (cmd.kingclass) Maher.push(`││✵ ᴄʟᴀss ${cmd.kingclass}`);
           if(cmd.kingpath) Maher.push(`││✵ ꜰɪʟᴇ-ᴘᴀᴛʜ ${cmd.kingpath}\n╰━────────────━┈⊷\n${name.caption}`)
           return await person.reply(Maher.join('\n'));
