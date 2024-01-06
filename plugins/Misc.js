@@ -331,7 +331,7 @@ const vcard = 'BEGIN:VCARD\n' +
              kingcmd: "uptime",
              shortcut: ["runtime","um"],
              infocmd: "Tells runtime/uptime of bot.",
-             kingclass: "tools heroku & Koyeb",
+             kingclass: "tools cmd",
              kingpath: __filename
          },
          async(Void, citel, text) => {

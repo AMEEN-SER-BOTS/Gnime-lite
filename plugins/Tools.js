@@ -8,7 +8,7 @@ const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
 sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
     kingcmd: "ping",
     infocmd: "To check ping",
-    kingclass: "tools heroku & Koyeb",
+    kingclass: "tools cmd",
     use: " ",
 },
 async(sigma, person) => {
@@ -23,7 +23,7 @@ async(sigma, person) => {
 Module_Exports({
         kingcmd: "plugins",
         shortcut :['plugin',"plist"],
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         infocmd: "Shows list of all externally installed modules",
         kingpath: __filename
     },
@@ -42,7 +42,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "remove",
         shortcut :['uninstall'],
-        kingclass: "tools heroku & Koyeb",
+        kingclass: "tools cmd",
         infocmd: "removes external modules.",
         kingpath: __filename
     },
@@ -71,7 +71,7 @@ Module_Exports({
 
 Module_Exports({
   kingcmd: "install",
-  kingclass: "tools heroku & Koyeb",
+  kingclass: "tools cmd",
   kingpath: "Installs external Plugins..",
   use: " ",
 },
@@ -88,7 +88,7 @@ Module_Exports(
      kingcmd: "restart",
      shortcut: ["res"],
      infocmd: "To restart bot",
-     kingclass: "tools heroku & Koyeb",
+     kingclass: "tools cmd",
       kingpath: __filename
      }, async(Void, citel,text,{ isCreator }) => {
           if (!isCreator) return citel.reply(tlang().owner);

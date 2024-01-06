@@ -328,7 +328,7 @@ let txt =
     //---------------------------------------------------------------------------
 Module_Exports({
             kingcmd: "alive",
-            kingclass: "tools heroku & Koyeb",
+            kingclass: "tools cmd",
             kingpath: __filename,
             infocmd: "To check Bot is Online"
         },
@@ -384,7 +384,7 @@ if(isCreator && text != "")
           urll = aliv.url || await botpic() ;
 
           
-const alivtxt = `${alivemessage}\n\n*_Type ${prefix}menu For My Commands list._*\n*_I am Multi-Device Whatsapp Bot Created By MAHER ZUBAIR_*\n*_For Any Help_*\n*_Join Support:  ${sgc}_*`;
+const alivtxt = `${alivemessage}\n\n*_@user ɪ'ᴍ ʀᴜɴɴᴜɴɢ sɪɴᴄᴇ " + runtime(process.uptime()) + "_*`;
  const messageOptions = image ? { image: { url: urll }, caption: alivtxt }
                         : video? { video: { url: urll },gifPlayback: true, caption: alivtxt }
                         : { image: { url: await botpic() }, caption: alivtxt };

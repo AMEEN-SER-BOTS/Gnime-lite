@@ -36,13 +36,23 @@ Module_Exports({
         infocmd: "Sends official support group link.",
         kingclass: "creator",
         use: ""
-
-    },
-    async(sigma, man, text,) => {
-function _0x2daf(_0x4a0439,_0x339063){const _0x8f5be4=_0x3e3a();return _0x2daf=function(_0x553f00,_0x3705b2){_0x553f00=_0x553f00-(-0x1beb*-0x1+0x9b1*-0x2+-0x81b);let _0x29959d=_0x8f5be4[_0x553f00];return _0x29959d;},_0x2daf(_0x4a0439,_0x339063);}const _0x43123c=_0x2daf;(function(_0x481e8d,_0x8122eb){const _0xeb4fde=_0x2daf,_0x5ee88e=_0x481e8d();while(!![]){try{const _0x17942f=parseInt(_0xeb4fde(0x89))/(0xd0d+-0x1800+-0x57a*-0x2)+-parseInt(_0xeb4fde(0x72))/(-0x1972+-0x1c95+-0x601*-0x9)+-parseInt(_0xeb4fde(0x75))/(-0x1f24+0x1879+-0x11d*-0x6)*(-parseInt(_0xeb4fde(0x76))/(0x1d7*-0x15+-0x19bd+0x4064))+-parseInt(_0xeb4fde(0x87))/(-0x11c3+0xb91+0x637)+-parseInt(_0xeb4fde(0x73))/(0xfbf*-0x1+-0xc2*0x17+0x1*0x2133)*(-parseInt(_0xeb4fde(0x85))/(-0xabd+-0x19f5*0x1+0x24b9*0x1))+-parseInt(_0xeb4fde(0x7b))/(-0x26e1*0x1+0x2629*-0x1+0x4d12)+parseInt(_0xeb4fde(0x77))/(0x21e*0xc+0x7*0x5f+-0x1bf8)*(parseInt(_0xeb4fde(0x8a))/(-0x2*-0xbb3+-0x52e+-0x122e));if(_0x17942f===_0x8122eb)break;else _0x5ee88e['push'](_0x5ee88e['shift']());}catch(_0x5477bc){_0x5ee88e['push'](_0x5ee88e['shift']());}}}(_0x3e3a,0x3b9d*-0x19+0x146867+-0xc8f8));const slog=await getBuffer(global[_0x43123c(0x71)]);function _0x3e3a(){const _0xbc6bc2=['\x20*sɪɢᴍᴀ\x20ᴹ','8010112FFGhbZ','sɪɢᴍᴀ\x20ᴹᴰ-s','\x0a││✵\x20*_ᴅᴇᴠ','ᴀᴍᴇ_*\x20\x0a││✵','*_ɢʀᴏᴜᴘ\x20ɴ','ᴜᴘᴘᴏʀᴛ','*\x20\x0a││✵\x20*_ɢ','────━┈⊷','𝐢𝐫\x0a╰━────────','𝐌𝐚𝐡𝐞𝐫\x20𝐙𝐮𝐛𝐚','316421rzMeBv','chat','2806175akTXmM','╭────〔\x20🅼♥︎❚❚','278245ODqDti','730eksNce','_*\x20','ᴇʟᴏᴘᴇʀ_*\x20','ᴰ-sᴜᴘᴘᴏʀᴛ','sendMessag','slogo','463178wZfjEn','150MPNENH','Easy\x20to\x20Us','3LcuwZM','4128164SwStnK','31833TCxRcM','♥︎🆉\x20〕━┈⊷\x0a││✵\x20','ʀᴏᴜᴘ\x20ʟɪɴᴋ'];_0x3e3a=function(){return _0xbc6bc2;};return _0x3e3a();}await sigma[_0x43123c(0x70)+'e'](man[_0x43123c(0x86)],{'image':slog,'text':_0x43123c(0x88)+_0x43123c(0x78)+_0x43123c(0x7f)+_0x43123c(0x7e)+_0x43123c(0x7a)+_0x43123c(0x6f)+_0x43123c(0x81)+_0x43123c(0x79)+_0x43123c(0x8b)+sgc+(_0x43123c(0x7d)+_0x43123c(0x6e)+_0x43123c(0x84)+_0x43123c(0x83)+_0x43123c(0x82)),'contextInfo':{'externalAdReply':{'title':_0x43123c(0x7c)+_0x43123c(0x80),'body':_0x43123c(0x74)+'e','thumbnail':slog,'mediaType':0x4,'mediaUrl':'','sourceUrl':sgc}}});
-   
-    }
-)
+      }, async (a, b, c) => {
+        const d = await getBuffer(global.slogo);
+        await a.sendMessage(b.chat, {
+          image: d,
+          text: "╭────〔 ɢɴɪᴍᴇ 〕━┈⊷\n││✵ *_ɢʀᴏᴜᴘ ɴᴀᴍᴇ_* \n││✵ *ɢɴɪᴍᴇ-sᴜᴘᴘᴏʀᴛ* \n││✵ *_ɢʀᴏᴜᴘ ʟɪɴᴋ_* " + sgc + "\n╰━────────────━┈⊷",
+          contextInfo: {
+            externalAdReply: {
+              title: "ɢɴɪᴍᴇ-sᴜᴘᴘᴏʀᴛ",
+              body: "Easy to Use",
+              thumbnail: d,
+              mediaType: 4,
+              mediaUrl: "",
+              sourceUrl: sgc
+            }
+          }
+        });
+      });
 //===========================================================================
 Module_Exports({
     kingcmd: "gdesc",
@@ -191,22 +201,67 @@ Module_Exports({
       else return await citel.reply(`*_Please Toggle between "On" And "Off"._*\n*_To get And Stop Promote/Demote Alerts_*`)
 });
     //---------------------------------------------------------------------------
- Module_Exports({
-    kingcmd: "warn",
-    infocmd: "Warns user in Group.",
-    kingclass: "group cmd",
-    kingpath: __filename,
-    use: 'quote|reply|number',
-},
-async(Void, citel, text,{ isCreator }) => {
-     if (!citel.isGroup) return citel.reply(tlang().group)
-    const groupAdmins = await getAdmin(Void, citel)
-    const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-    if (!isAdmins) return citel.reply(tlang().admin)
-const S=m;function Z(){const F=['126402oKAcRa','date','*_Removing\x20User\x20because\x20Warn\x20limit\x20exceeded_*\x0a\x0a*_Total\x20Warnings._*\x0a','chat','8qachoN','580yXDZAo','groupParticipantsUpdate','114528WgITIL','reply','groupMetadata','││\x20*_𝚃𝙸𝙼𝙴_*\x20','find','locale','log','196311jXGmuc','quoted','save','*\x0a╭────〔 🅼♥︎❚❚♥︎🆉 〕━┈⊷\x0a││\x20*_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_*\x20','759700KYdstU','warnedby','pushName','reason','8dUtMfa','2BlOCqD','550MdvhLT','-★-❖-♕- *𝚆𝙰𝚁𝙽* -♕-❖-★-\x0a*_𝚄𝚂𝙴𝚁_*\x20@','54828ViphBF','subject','1100323uEahgH','30204512uUuJcj','*_There\x20are\x20total\x20','split','││\x20*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20','length','sender','setDefault','group','Africa/Lagos','../Setting','215XZLRSE','HH:mm:ss','warn','remove'];Z=function(){return F;};return Z();}(function(U,w){const c=m,s=U();while(!![]){try{const q=parseInt(c(0x1eb))/0x1*(parseInt(c(0x1f0))/0x2)+parseInt(c(0x1e7))/0x3*(parseInt(c(0x1ef))/0x4)+-parseInt(c(0x200))/0x5*(-parseInt(c(0x204))/0x6)+-parseInt(c(0x1f5))/0x7*(-parseInt(c(0x1dd))/0x8)+-parseInt(c(0x1f3))/0x9*(-parseInt(c(0x1de))/0xa)+parseInt(c(0x1f1))/0xb*(parseInt(c(0x1e0))/0xc)+-parseInt(c(0x1f6))/0xd;if(q===w)break;else s['push'](s['shift']());}catch(B){s['push'](s['shift']());}}}(Z,0x707d4));function m(Y,U){const w=Z();return m=function(s,q){s=s-0x1dd;let B=w[s];return B;},m(Y,U);}if(!citel['quoted'])return citel[S(0x1e1)]('*_Please\x20Reply\x20a\x20\User_*');const timesam=moment(moment())['format'](S(0x201));moment['tz'][S(0x1fc)](S(0x1fe))[S(0x1e5)]('id');try{let metadata=await Void[S(0x1e2)](citel[S(0x207)]);await new warndb({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202),'reason':text,'group':metadata[S(0x1f4)],'warnedby':citel[S(0x1ed)],'date':timesam})[S(0x1e9)]();let ment=citel[S(0x1e8)][S(0x1fb)];Void['sendMessage'](citel['chat'],{'text':S(0x1f2)+citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+'\x0a*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+text+'\x0a*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20'+citel[S(0x1ed)],'mentions':[citel[S(0x1e8)][S(0x1fb)]]},{'quoted':citel});let h=await warndb[S(0x1e4)]({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});const name=require(S(0x1ff));if(h[S(0x1fa)]>name['warncount']){teskd=S(0x206);let h=await warndb[S(0x1e4)]({'id':citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});teskd+=S(0x1f7)+h[S(0x1fa)]+'\x20\x20warnings._*\x0a';for(let i=0x0;i<h[S(0x1fa)];i++){teskd+='*'+(i+0x1)+S(0x1ea)+h[i][S(0x1fd)]+'\x0a',teskd+=S(0x1e3)+h[i][S(0x205)]+'\x0a',teskd+=S(0x1f9)+h[i][S(0x1ec)]+'\x0a',teskd+='││\x20*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+h[i][S(0x1ee)]+'\x0a││ *_𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳-𝙱𝚈_* *𝙼 𝚉𝚄𝙱𝙰𝙸𝚁*\x0a╰━────────────━┈⊷\x0a\x0a';}citel[S(0x1e1)](teskd),await Void[S(0x1df)](citel['chat'],[citel['quoted'][S(0x1fb)]],S(0x203));}}catch(Y){console[S(0x1e6)](Y);}
-    
-}
-)
+    Module_Exports({
+        kingcmd: "warn",
+        infocmd: "Warns user in Group.",
+        kingclass: "group cmd",
+        kingpath: __filename,
+        use: "quote|reply|number"
+      }, async (a, b, c, {
+        isCreator: d
+      }) => {
+        if (!b.isGroup) {
+          return b.reply(tlang().group);
+        }
+        const e = await getAdmin(a, b);
+        const f = b.isGroup ? e.includes(b.sender) : false;
+        if (!f) {
+          return b.reply(tlang().admin);
+        }
+        if (!b.quoted) {
+          return b.reply("*_Please Reply a User_*");
+        }
+        const g = moment(moment()).format("HH:mm:ss");
+        moment.tz.setDefault("Africa/Lagos").locale("id");
+        try {
+          let d = await a.groupMetadata(b.chat);
+          await new warndb({
+            id: b.quoted.sender.split("@")[0] + "warn",
+            reason: c,
+            group: d.subject,
+            warnedby: b.pushName,
+            date: g
+          }).save();
+          let e = b.quoted.sender;
+          a.sendMessage(b.chat, {
+            text: "-★-❖-♕- *𝚆𝙰𝚁𝙽* -♕-❖-★-\n*_𝚄𝚂𝙴𝚁_* @" + b.quoted.sender.split("@")[0] + "\n*_𝚁𝙴𝙰𝚂𝙾𝙽_* " + c + "\n*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_* " + b.pushName,
+            mentions: [b.quoted.sender]
+          }, {
+            quoted: b
+          });
+          let f = await warndb.find({
+            id: b.quoted.sender.split("@")[0] + "warn"
+          });
+          const h = require("../Setting");
+          if (f.length > h.warncount) {
+            teskd = "*_Removing User because Warn limit exceeded_*\n\n*_Total Warnings._*\n";
+            let c = await warndb.find({
+              id: b.quoted.sender.split("@")[0] + "warn"
+            });
+            teskd += "*_There are total " + c.length + "  warnings._*\n";
+            for (let a = 0; a < c.length; a++) {
+              teskd += "*" + (a + 1) + "*\n╭────〔 ɢɴɪᴍᴇ 〕━┈⊷\n││ *_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_* " + c[a].group + "\n";
+              teskd += "││ *_𝚃𝙸𝙼𝙴_* " + c[a].date + "\n";
+              teskd += "││ *_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_* " + c[a].warnedby + "\n";
+              teskd += "││ *_𝚁𝙴𝙰𝚂𝙾𝙽_* " + c[a].reason + "\n╰━────────────━┈⊷\n\n";
+            }
+            b.reply(teskd);
+            await a.groupParticipantsUpdate(b.chat, [b.quoted.sender], "remove");
+          }
+        } catch (a) {
+          console.log(a);
+        }
+      });
     
 //---------------------------------------------------------------------------
 Module_Exports({
@@ -327,7 +382,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     
     //---------------------------------------------------------------------------
     Module_Exports({
-        kingcmd: "devwarn",
+        kingcmd: "creatorwarn",
         shortcut: ['dwarn'],
         infocmd: "sends warning from developer",
         kingclass: "creator",
@@ -367,7 +422,6 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 ││✵ *ᴏᴛʜᴇʀ ᴡɪsᴇ*
 ││✵ *ʏᴏᴜ ᴡɪʟʟ*
 ││✵ *ʙᴇ ᴋɪᴄᴋᴇᴅ*
-││✵ *ᴀᴜᴛʜᴏʀ* ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ
 ╰━────────────━┈⊷      `
     
     
@@ -431,15 +485,6 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     },
     async(Void, citel, text,{ isCreator }) => {
       if (citel.quoted)  return citel.reply(citel.quoted.sender)
-	    
-	    
-	  /*  if(!isCreator) return citel.reply(tlang().owner)
-        const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
-		const participants = citel.isGroup ? await groupMetadata.participants : "";
-    let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`
-    for (let mem of participants) {
-            textt += `📍 ${mem.id}\n`;
-        }*/
      else return citel.reply(citel.chat)
 
     }
@@ -588,7 +633,7 @@ person.sender.split("@")[0]
 
     //---------------------------------------------------------------------------
     Module_Exports({
-        kingcmd: "rwarn",
+        kingcmd: "delwarn",
         infocmd: "Deletes 1 previously given warns of quoted user.",
         kingclass: "group cmd",
         kingpath: __filename,
@@ -690,161 +735,6 @@ Module_Exports({
 
         }
     ) 
-    //---------------------------------------------------------------------------
-Module_Exports({
-            kingcmd: "rank",
-            infocmd: "Sends rank card of user.",
-            kingclass: "group cmd",
-            kingpath: __filename,
-        },
-        async(Void, citel, text) => {
-            const userq = await Levels.fetch(citel.sender, "RandomXP");
-            const lvpoints = userq.level;
-            var role = "GOD✨";
-            if (lvpoints <= 2) {
-                var role = "Citizen";
-            } else if (lvpoints <= 4) {
-                var role = "Baby Wizard";
-            } else if (lvpoints <= 6) {
-                var role = "Wizard";
-            } else if (lvpoints <= 8) {
-                var role = "Wizard Lord";
-            } else if (lvpoints <= 10) {
-                var role = "Baby Mage";
-            } else if (lvpoints <= 12) {
-                var role = "Mage";
-            } else if (lvpoints <= 14) {
-                var role = "Master of Mage";
-            } else if (lvpoints <= 16) {
-                var role = "Child of Nobel";
-            } else if (lvpoints <= 18) {
-                var role = "Nobel";
-            } else if (lvpoints <= 20) {
-                var role = "Speed of Elite";
-            } else if (lvpoints <= 22) {
-                var role = "Elite";
-            } else if (lvpoints <= 24) {
-                var role = "Ace I";
-            } else if (lvpoints <= 26) {
-                var role = "Ace II";
-            } else if (lvpoints <= 28) {
-                var role = "Ace Master";
-            } else if (lvpoints <= 30) {
-                var role = "Ace Dominator";
-            } else if (lvpoints <= 32) {
-                var role = "Ace Elite";
-            } else if (lvpoints <= 34) {
-                var role = "Ace Supreme";
-            } else if (lvpoints <= 36) {
-                var role = "Supreme I";
-            } else if (lvpoints <= 38) {
-                var role = "Supreme Ii";
-            } else if (lvpoints <= 40) {
-                var role = "Supreme Master";
-            } else if (lvpoints <= 42) {
-                var role = "Legend III";
-            } else if (lvpoints <= 44) {
-                var role = "Legend II";
-            } else if (lvpoints <= 46) {
-                var role = "Legend";
-            } else if (lvpoints <= 55) {
-                var role = "𝐊𝐈𝐍𝐆";
-            }
-            let disc = citel.sender.substring(3, 7);
-            let textr = '';
-            textr += `╭────〔 ${mztit} 〕━┈⊷\n││✵ ʜɪ  ${citel.pushName}\n`;
-            let ttms = `${userq.xp}` / 8;
-            textr += `││✵ ʀᴏʟᴇ ${role} \n││✵ ᴇxᴘ ${userq.xp} / ${Levels.xpFor(
-                userq.level + 1
-              )}\n││✵ ʟᴇᴠᴇʟ ${userq.level}\n││✵ ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs ${ttms}\n╰━────────────━┈⊷`;
-            try {
-                ppuser = await Void.profilePictureUrl(citel.sender, "image");
-            } catch {
-                ppuser = THUMB_IMAGE;
-            }
-                    Void.sendMessage(citel.chat, {
-                        image: await getBuffer(ppuser),
-                        caption: textr,
-                    }, {
-                        quoted: citel,
-                    });
-        }
-    )
-    //---------------------------------------------------------------------------
-Module_Exports({
-            kingcmd: "leaderboard",
-            shortcut: ["deck"],
-            infocmd: "To check leaderboard",
-            kingclass: "user cmd",
-            kingpath: __filename,
-        },
-        async(Void, citel) => {
-            const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
-            let leadtext = ` 
-*✯─────────✯*
- *✯──● LeaderBoard ●──✯*
-*✯─────────✯*
-\n\n`
-            for (let i = 0; i < fetchlb.length; i++) {
-                const lvpoints = fetchlb[i].level
-                var role = "GOD";
-                if (lvpoints <= 2) {
-                    var role = "Citizen";
-                } else if (lvpoints <= 4) {
-                    var role = "Baby Wizard";
-                } else if (lvpoints <= 6) {
-                    var role = "Wizard";
-                } else if (lvpoints <= 8) {
-                    var role = "Wizard Lord";
-                } else if (lvpoints <= 10) {
-                    var role = "Baby Mage";
-                } else if (lvpoints <= 12) {
-                    var role = "Mage";
-                } else if (lvpoints <= 14) {
-                    var role = "Master of Mage";
-                } else if (lvpoints <= 16) {
-                    var role = "Child of Nobel";
-                } else if (lvpoints <= 18) {
-                    var role = "Nobel";
-                } else if (lvpoints <= 20) {
-                    var role = "Speed of Elite";
-                } else if (lvpoints <= 22) {
-                    var role = "Elite";
-                } else if (lvpoints <= 24) {
-                    var role = "Ace I";
-                } else if (lvpoints <= 26) {
-                    var role = "Ace II";
-                } else if (lvpoints <= 28) {
-                    var role = "Ace Master";
-                } else if (lvpoints <= 30) {
-                    var role = "Ace Dominator";
-                } else if (lvpoints <= 32) {
-                    var role = "Ace Elite";
-                } else if (lvpoints <= 34) {
-                    var role = "Ace Supreme";
-                } else if (lvpoints <= 36) {
-                    var role = "Supreme I";
-                } else if (lvpoints <= 38) {
-                    var role = "Supreme Ii";
-                } else if (lvpoints <= 40) {
-                    var role = "Supreme Master";
-                } else if (lvpoints <= 42) {
-                    var role = "Legend III";
-                } else if (lvpoints <= 44) {
-                    var role = "Legend II";
-                } else if (lvpoints <= 46) {
-                    var role = "Legend";
-                } else if (lvpoints <= 55) {
-                    var role = "𝐊𝐈𝐍𝐆";
-                }
-                let data = await sck1.findOne({ id: fetchlb[i].userID })
-                let namew = fetchlb[i].userID
-                let ttms = fetchlb[i].xp / 8
-                leadtext += `*${i + 1}*\n*𝙽𝙰𝙼𝙴* ${data.name}\n*𝙻𝙴𝚅𝙴𝙻* ${fetchlb[i].level}\n*𝙿𝙾𝙸𝙽𝚃𝚂* ${fetchlb[i].xp}\n*𝚁𝙾𝙻𝙴* ${role}\n*𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂* ${ttms}\n✯──────────────✯\n`;
-            }
-            return citel.reply(leadtext)
-        }
-    )
 
     //---------------------------------------------------------------------------
 Module_Exports({
@@ -943,7 +833,7 @@ Module_Exports({
     )
     //---------------------------------------------------------------------------
  Module_Exports({
-             kingcmd: "groupmode",
+             kingcmd: "group",
              shortcut: ["gmode"],
              infocmd: "mute and unmute group.",
              kingclass: "group cmd",
@@ -1329,57 +1219,5 @@ Module_Exports({
         return await citel.reply(`*Successful Sending Broadcast To ${anu.length} Group(s)*`);
     }
 )
-
-//---------------------------------------------------------------------------
-	Module_Exports({ on: "text" }, async(Void, citel) => {
-	    const randomXp = 8;
-	    let usrname = citel.pushName
-	    const hasLeveledUp = await Levels.appendXp(citel.sender, "RandomXP", randomXp);
-	    if (hasLeveledUp) 
-	    {
-		    const sck1 = await Levels.fetch(citel.sender, "RandomXP");
-		    const lvpoints = sck1.level;
-		    var role = "GOD";
-			 if (lvpoints <=  2) { var role = "Citizen";  } 
-		    else if (lvpoints <=  4) { var role = "Baby Wizard"; } 
-		    else if (lvpoints <=  6) { var role = "Wizard"; } 
-		    else if (lvpoints <=  8) { var role = "Wizard Lord"; } 
-		    else if (lvpoints <= 10) { var role = "Baby Mage"; } 
-		    else if (lvpoints <= 12) { var role = "Mage"; } 
-		    else if (lvpoints <= 14) { var role = "Master of Mage";} 
-		    else if (lvpoints <= 16) { var role = "Child of Nobel";  } 
-		    else if (lvpoints <= 18) { var role = "Nobel";} 
-		    else if (lvpoints <= 20) { var role = "Speed of Elite"; }
-		    else if (lvpoints <= 22) { var role = "Elite"; } 
-		    else if (lvpoints <= 24) { var role = "Ace I"; } 
-		    else if (lvpoints <= 26) { var role = "Ace II"; } 
-		    else if (lvpoints <= 28) { var role = "Ace Master"; }
-		    else if (lvpoints <= 30) { var role = "Ace Dominator"; }
-		    else if (lvpoints <= 32) { var role = "Ace Elite"; }
-		    else if (lvpoints <= 34) { var role = "Ace Supreme";} 
-		    else if (lvpoints <= 36) { var role = "Supreme I"; }
-		    else if (lvpoints <= 38) { var role = "Supreme Ii"; } 
-		    else if (lvpoints <= 40) { var role = "Supreme Master"; } 
-		    else if (lvpoints <= 42) { var role = "Legend III"; } 
-		    else if (lvpoints <= 44) { var role = "Legend II"; } 
-		    else if (lvpoints <= 46) { var role = "Legend"; } 
-		    else if (lvpoints <= 55) { var role = "𝐊𝐈𝐍𝐆"; } 
-		    else {  var role = "Kiddo";   }
-
-		    if(name.levelupmessage !== 'false')
-		    {
-			    await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
-			caption: `
-╭────〔 ${mztit} 〕━┈⊷
-││✵ *ᴡᴏᴡ,sᴏᴍᴇᴏɴᴇ ᴊᴜsᴛ*
-││✵ *ʟᴇᴠᴇʟᴇᴅ ᴜᴘ ʜᴜʜ*
-││✵ *ɴᴀᴍᴇ* ${citel.pushName}
-││✵ *ʟᴇᴠᴇʟ* ${sck1.level}🍭
-││✵ *ᴇxᴘ* ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-││✵ *ʀᴏʟᴇ* *${role}*
-╰━────────────━┈⊷\n ${scap}`   }, { quoted: citel });
-		    }
-	    }
-	})
-	
-
+//////////////////////////////
+//-===============

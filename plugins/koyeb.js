@@ -21,7 +21,7 @@ cmd(
 cmd(
   {
     kingcmd: "koyebgetvar",
-    infocmd: "tools heroku & Koybe",
+    infocmd: "tools cmd",
     kingclass: "tools heroku & Koybe",
   },
   async (Void,citel,text,{isCreator}) => {

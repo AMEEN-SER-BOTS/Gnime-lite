@@ -273,7 +273,7 @@ Module_Exports({
   kingcmd: "status",
   shortcut: ["about","sts"],
   infocmd: "To check bot status",
-  kingclass: "tools heroku & Koyeb",
+  kingclass: "tools cmd",
   use: ""
 },
 async(sigma, person) => {
@@ -377,7 +377,7 @@ const { formatp, runtime } = require("../lib");
 Module_Exports({
   kingcmd: "speed",
   infocmd: "TO check bot responding speed",
-  kingclass: "tools heroku & Koyeb",
+  kingclass: "tools cmd",
   use: "",
 },
 async(sigma, person) => {

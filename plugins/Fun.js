@@ -1,5 +1,3 @@
-
-
 const { dare, truth, random_question ,name } = require('../lib/truth-dare.js')
 const axios = require('axios')
 const { Module_Exports,sleep } = require('../lib')
