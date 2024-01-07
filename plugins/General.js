@@ -61,7 +61,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "chat",
         infocmd: "chat with an AI chatbot",
-        kingclass: "AI",
+        kingclass: "AI cmd",
         use: 'Hi',
         kingpath: __filename,
     },
@@ -122,7 +122,7 @@ Module_Exports({
   kingcmd: "dalle",
   shortcut: ["dall", "dall-e"],
   infocmd: "chat with an AI",
-  kingclass: "AI",
+  kingclass: "AI cmd",
   use: "<Hii, Suhail Tech Info>",
   kingpath: __filename
 }, async (a, b, c) => {

@@ -22,7 +22,7 @@ cmd(
   {
     kingcmd: "koyebgetvar",
     infocmd: "tools cmd",
-    kingclass: "tools heroku & Koybe",
+    kingclass: "misc cmd",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -36,7 +36,7 @@ cmd(
    kingcmd: "getallvar",
     infocmd: "get all vars from koyeb.",
     filename: __filename,
-    kingclass: "tools heroku & Koybe",
+    kingclass: "misc cmd",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -49,7 +49,7 @@ cmd(
     kingcmd: "koyebsetvar",
     infocmd: "set var in koyeb.",
     filename: __filename,
-    kingclass: "tools heroku & Koybe",
+    kingclass: "misc cmd",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
@@ -66,7 +66,7 @@ cmd(
     kingcmd: "koyebdelvar",
     infocmd: "delete var from koyeb.",
     filename: __filename,
-    kingclass: "tools heroku & Koybe",
+    kingclass: "misc cmd",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().owner);
