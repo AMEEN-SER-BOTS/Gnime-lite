@@ -34,6 +34,7 @@
 <a href="https://github.com/Astropeda/Gnime-lite/fork"><img title="GNIME" src="https://img.shields.io/badge/FORK GNIME LITE-h?color=black&style=for-the-badge&logo=stackshare">
 <a href="https://leadier-umbrellas.000webhostapp.com/web/index.html"><img title="SCAN QR" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi">
 <a href="https://heroku.com/deploy?template=https://github.com/Astropeda/Gnime-lite"><img title="HEROKU" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=Heroku">
+  <a href="https://dashboard.render.com/select-repo?type=web"><img title="RENDER" src="https://img.shields.io/badge/DEPLOY RENDER-h?color=black&style=for-the-badge&logo=Render">
 <a href="https://app.koyeb.com/apps/new"><img title="KOYEB" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=Heroku">
 <a href="https://replit.com/github/Astropeda/Gnime-lite"><img title="REPLIT" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit">
 <a href="https://github.com/codespaces/new"><img title="REPLIT" src="https://img.shields.io/badge/DEPLOY CODESPACES-h?color=black&style=for-the-badge&logo=Github">
