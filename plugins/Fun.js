@@ -221,7 +221,7 @@ await sleep(1000)
 ///=====================================================================
 Module_Exports({
     kingcmd: 'rizz',
-    kingclass: "pastim cmd",
+    kingclass: "pastime cmd",
     infocmd: 'Get a random pickup line',
   },
   async (Void, citel) => {
@@ -244,7 +244,7 @@ Module_Exports({
 Module_Exports({
     kingcmd: 'insult',
     infocmd: 'Get a random insult',
-    kingclass: "fun",
+    kingclass: "pastime cmd",
   },
   async (Void, citel) => {
     try {
