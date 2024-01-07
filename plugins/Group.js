@@ -490,7 +490,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
     }
 )
 //-------------------------------------------------------------------------------
-cmd({
+Module_Exports({
     kingcmd: "tagall",
     infocmd: "Tags all user in group.",
     kingclass: "group cmd",

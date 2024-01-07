@@ -219,7 +219,7 @@ await sleep(1000)
 
     )
 ///=====================================================================
-cmd({
+Module_Exports({
     kingcmd: 'rizz',
     kingclass: "pastim cmd",
     infocmd: 'Get a random pickup line',
@@ -241,7 +241,7 @@ cmd({
     }
   });
 //==============================
-cmd({
+Module_Exports({
     kingcmd: 'insult',
     infocmd: 'Get a random insult',
     kingclass: "fun",
