@@ -12,7 +12,7 @@
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
-     "value": "https://leadier-umbrellas.000webhostapp.com/1.jpg"
+     "value": "https://leadier-umbrellas.000webhostapp.com/5.jpg"
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
