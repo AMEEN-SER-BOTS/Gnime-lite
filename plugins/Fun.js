@@ -218,7 +218,46 @@ await sleep(1000)
         }
 
     )
-
-// These Fun Commands are Developed By @Maher-Zubair
-// Whatsapp +2348039607375// Usage And CopyRights Are Reserved
-
+///=====================================================================
+cmd({
+    kingcmd: 'rizz',
+    kingclass: "pastim cmd",
+    infocmd: 'Get a random pickup line',
+  },
+  async (Void, citel) => {
+    try {
+      let response = await axios.get('https://vinuxd.vercel.app/api/pickup');
+      let data = response.data;
+  
+      if (!data || !data.pickup) {
+        return citel.reply('Unable to retrieve a pickup line. Please try again later.');
+      }
+  
+      let pickupLine = data.pickup;
+  
+      return citel.reply(`*Pickup Line:* ${pickupLine}`);
+    } catch (error) {
+      citel.reply(`Error: ${error.message || error}`);
+    }
+  });
+//==============================
+cmd({
+    kingcmd: 'insult',
+    infocmd: 'Get a random insult',
+    kingclass: "fun",
+  },
+  async (Void, citel) => {
+    try {
+      let response = await axios.get('https://evilinsult.com/generate_insult.php?lang=en&type=json');
+      let data = response.data;
+  
+      if (!data || !data.insult) {
+        return citel.reply('Unable to retrieve an insult. Please try again later.');
+      }
+  
+      let insult = data.insult;
+      return citel.reply(`*Insult:* ${insult}`);
+    } catch (error) {
+      citel.reply(`Error: ${error.message || error}`);
+    }
+  });

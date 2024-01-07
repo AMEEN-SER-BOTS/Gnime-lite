@@ -489,9 +489,40 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 
     }
 )
-
+//-------------------------------------------------------------------------------
+cmd({
+    kingcmd: "tagall",
+    infocmd: "Tags all user in group.",
+    kingclass: "group cmd",
+    kingpath: __filename,
+  },
+  async(Void, citel, text,{ isCreator }) => {
+    if (!citel.isGroup) return citel.reply(tlang().group);
+    const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
+    const participants = citel.isGroup ? await groupMetadata.participants : "";
+    const groupAdmins = await getAdmin(Void, citel)
+    const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+    if (!isAdmins) return citel.reply(tlang().admin);
+  
+    let textt = `
+  ◐╤╤✪〘   *Tag All*   〙✪╤╤◑
+  
+  ➲ *Message :* ${text ? text : "blank"}\n\n
+  ➲ *Author:* ${citel.pushName} 👾
+  `
+    for (let mem of participants) {
+        textt += ` ⚡️ @${mem.id.split("@")[0]}\n`;
+    }
+    Void.sendMessage(citel.chat, {
+        text: textt,
+        mentions: participants.map((a) => a.id),
+    }, {
+        quoted: citel,
+    });
+  }
+  )
     //---------------------------------------------------------------------------
-    Module_Exports({
+ /*   Module_Exports({
         kingcmd: "tagall",
         infocmd: "Tags all user in group.",
         kingclass: "group cmd",
@@ -530,7 +561,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
             quoted: man,
         });
     }
-)
+) */
 
     //---------------------------------------------------------------------------
 Module_Exports({

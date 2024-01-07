@@ -98,23 +98,31 @@ Module_Exports({
   }
 });
 //----------------------
-Module_Exports({
-  kingcmd: "blackbox",
-  shortcut: ["bb", "bbai"],
+cmd({
+  kingcmd: 'bard',
+  infocmd: 'Ask the AI a question',
   kingclass: "AI cmd",
-  infocmd: "To get open ai response"
-}, async (a, b, c) => {
-  if (!c) {
-    return b.reply("*_Give me Text To Get ChatGpt Response_*\n*_" + prefix + "gpt Who is King_*");
+  shortcut: ["gbard", "gbai"],
+  
+},
+async (Void, citel, text) => {
+  let question = encodeURIComponent(text.trim());
+
+  if (!question) {
+    return citel.reply('Please provide a question to ask the AI.');
   }
+
   try {
-    const a = await fetch("https://api-smd.vercel.app/api/api/blackbox?query=" + c);
-    const d = await a.json();
-    return b.reply(d.result, {
-      quoted: b
-    });
-  } catch (a) {
-    b.reply("*_Unknown Error Occured_*");
+    let response = await axios.get(`https://api-smd.vercel.app/api/bard?query=${question}`);
+    let data = response.data;
+
+    if (!data.respon) {
+      return citel.reply('Sorry, I couldn\'t retrieve a response from the AI.');
+    }
+
+    await Void.sendMessage(citel.chat, { text: data.respon }, { quoted: citel });
+  } catch (error) {
+    citel.reply(`Error: ${error.message || error}`);
   }
 });
 //---------------------------------------------------------------------------
@@ -161,7 +169,7 @@ Module_Exports({
     }
   });
 });
-
+//---------------------------------------------------------------------------
 
 //---------------------------------------------------------------------------
 Module_Exports({
