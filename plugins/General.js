@@ -98,7 +98,7 @@ Module_Exports({
   }
 });
 //----------------------
-cmd({
+Module_Exports({
   kingcmd: 'bard',
   infocmd: 'Ask the AI a question',
   kingclass: "AI cmd",
